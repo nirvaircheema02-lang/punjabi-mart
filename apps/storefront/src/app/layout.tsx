@@ -7,6 +7,9 @@ import { WhatsAppFab } from "@/components/ds/WhatsAppFab";
 import { StoreProvider } from "@/lib/store";
 
 export const metadata: Metadata = {
+  // Without this, Next cannot resolve relative OG/Twitter image URLs and warns
+  // at build time; set NEXT_PUBLIC_SITE_URL to the real domain once deployed.
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://punjabimarts.example"),
   title: "PunjabiMarts — Everything Punjabi, one marketplace",
   description:
     "Turbans, phulkari, juttis, kurta pajama, wedding and ceremony essentials, jewellery and gifting — sourced from trusted shops across Punjab and shipped India-wide.",
