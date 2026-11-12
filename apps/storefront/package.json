@@ -13,6 +13,7 @@
     "images:prompts": "node scripts/export-image-prompts.mjs"
   },
   "dependencies": {
+    "@punjabimarts/design-system": "*",
     "lucide-react": "^1.47.0",
     "next": "^16.4.3",
     "react": "19.2.8",
