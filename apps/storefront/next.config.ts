@@ -12,6 +12,14 @@ const exporting = process.env.STATIC_EXPORT === 'true'
 const apiOrigin = process.env.API_ORIGIN
 
 const nextConfig: NextConfig = {
+  /**
+   * Tells the client whether a backend exists at all. Without it the store
+   * fires /api/session and /api/catalog on every load, both 404 on a
+   * storefront-only deploy, and shows "The shop service is unavailable" —
+   * an alarming message on a site that is working exactly as intended from
+   * its seed catalogue.
+   */
+  env: { NEXT_PUBLIC_API_ENABLED: apiOrigin ? 'true' : 'false' },
   ...(exporting ? { output: 'export', trailingSlash: true } : {}),
   images: {
     unoptimized: exporting,

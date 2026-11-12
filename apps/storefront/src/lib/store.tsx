@@ -66,7 +66,14 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [error, setError] = useState<string | null>(null);
   const accountId = useRef<number | null>(null);
   const requestVersion = useRef(0);
+  /**
+   * False on a storefront-only deploy (no API_ORIGIN). The seed catalogue is
+   * then the intended source of truth, so skip the request rather than fail it.
+   */
+  const apiEnabled = process.env.NEXT_PUBLIC_API_ENABLED === 'true';
+
   async function refresh() {
+    if (!apiEnabled) return;
     const version = ++requestVersion.current;
     try {
       const [session, catalog] = await Promise.all([
