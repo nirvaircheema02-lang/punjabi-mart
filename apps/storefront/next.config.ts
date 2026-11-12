@@ -23,6 +23,15 @@ const nextConfig: NextConfig = {
   ...(exporting ? { output: 'export', trailingSlash: true } : {}),
   images: {
     unoptimized: exporting,
+    /**
+     * Catalogue sources top out around 1200px (1800 for landscape), so Next's
+     * default ladder up to 3840 asks the optimizer for variants it can never
+     * fill: w=3840 came back byte-identical to w=1920 (299KB both), just after
+     * more work. Capping the ladder cuts redundant transcodes on a cold Vercel
+     * cache and stops the browser pulling a 299KB file where 137KB will do.
+     */
+    deviceSizes: [360, 480, 640, 828, 1080, 1440, 1920],
+    imageSizes: [96, 128, 200, 256, 384],
     localPatterns: [
       { pathname: '/images/**' },
       { pathname: '/brand/**' },
