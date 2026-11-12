@@ -5,6 +5,7 @@ import { ProductImage } from './ProductImage'
 import { attributionFor, discountPercent, formatINR, type Product } from '@/lib/mock-data'
 import { productImages } from '@/lib/product-images'
 import { assetIfPresent } from '@/lib/image-availability'
+import { SIZES_CARD, SIZES_CARD_FMCG, SIZES_CARD_SPOTLIGHT } from '@/lib/image-sizes'
 
 /**
  * One card, two variants — not two components.
@@ -14,7 +15,23 @@ import { assetIfPresent } from '@/lib/image-availability'
  * fmcg:      1:1, compact, pack size prominent, quick-add MAY overlay because
  *            a flat packshot is not hero photography.
  */
-export function ProductCard({ product, priority = false, spotlight = false }: { product: Product; priority?: boolean; spotlight?: boolean }) {
+export function ProductCard({
+  product,
+  priority = false,
+  spotlight = false,
+  /**
+   * Override the listing geometry. The grid a card sits in decides how wide
+   * it renders, and the card cannot know that — the home page packs 4-up
+   * where a category listing runs 3-up. Containers whose geometry differs
+   * from the listing default MUST pass their own; see lib/image-sizes.ts.
+   */
+  sizes,
+}: {
+  product: Product
+  priority?: boolean
+  spotlight?: boolean
+  sizes?: string
+}) {
   const isFmcg = product.kind === 'fmcg'
   const off = discountPercent(product)
   const asset = product.image ? { src: product.image, alt: product.title } : assetIfPresent(productImages[product.id])
@@ -28,7 +45,10 @@ export function ProductCard({ product, priority = false, spotlight = false }: { 
             fallbackKind={product.art}
             fallbackSeed={product.id}
             priority={priority}
-            sizes={isFmcg ? '(min-width: 1024px) 20vw, 50vw' : '(min-width: 1024px) 33vw, 50vw'}
+            /* Spotlight is a HORIZONTAL card: the image is ~41% of the card,
+               not the full grid column. Declaring the column width here is what
+               made this the worst over-fetch on the site (4.55x). */
+            sizes={sizes ?? (spotlight ? SIZES_CARD_SPOTLIGHT : isFmcg ? SIZES_CARD_FMCG : SIZES_CARD)}
           />
         </Link>
 

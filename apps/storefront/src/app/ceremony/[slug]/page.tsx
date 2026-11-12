@@ -6,6 +6,7 @@ import { ProductImage } from '@/components/ds/ProductImage'
 import { ceremonyImages } from '@/lib/product-images'
 import { assetIfPresent } from '@/lib/image-availability'
 import { ceremonies, getCeremony, productsByCeremony, products } from '@/lib/mock-data'
+import { SIZES_EDITORIAL } from '@/lib/image-sizes'
 
 export function generateStaticParams() {
   return ceremonies.map((c) => ({ slug: c.slug }))
@@ -39,7 +40,7 @@ export default async function CeremonyPage({ params }: { params: Promise<{ slug:
 
       <section className="pm-collection-intro" data-variant="editorial">
         <div className="pm-collection-intro__media">
-          <ProductImage asset={assetIfPresent(ceremonyImages[slug])} fallbackKind="wedding" fallbackSeed={slug} priority fit="contain" sizes="(min-width: 768px) 50vw, 100vw" />
+          <ProductImage asset={assetIfPresent(ceremonyImages[slug])} fallbackKind="wedding" fallbackSeed={slug} priority fit="contain" sizes={SIZES_EDITORIAL} />
         </div>
         <div className="pm-collection-intro__body">
         <h1 className="pm-h1">{ceremony.name}</h1>

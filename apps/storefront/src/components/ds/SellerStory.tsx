@@ -4,6 +4,7 @@ import { ProductImage } from './ProductImage'
 import { sellerImages } from '@/lib/product-images'
 import { assetIfPresent } from '@/lib/image-availability'
 import { sellers, productsBySeller } from '@/lib/mock-data'
+import { SIZES_STORY } from '@/lib/image-sizes'
 
 /**
  * Seller story — the differentiation, given proper space.
@@ -33,7 +34,7 @@ export function SellerStory() {
                   asset={assetIfPresent(sellerImages[s.id])}
                   fallbackKind="turbans"
                   fallbackSeed={`story-${s.id}`}
-                  sizes="(min-width: 768px) 50vw, 100vw"
+                  sizes={SIZES_STORY}
                 />
               </div>
               <div className="pm-story__body">

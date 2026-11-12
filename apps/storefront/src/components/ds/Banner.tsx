@@ -3,6 +3,13 @@ import { CtaArrow } from './CtaArrow'
 import { ProductImage } from './ProductImage'
 import { categoryImages, ceremonyImages, heroImage } from '@/lib/product-images'
 import { assetIfPresent } from '@/lib/image-availability'
+import {
+  SIZES_CATEGORY_TILE,
+  SIZES_CEREMONY_TILE,
+  SIZES_HERO,
+  SIZES_PROMO,
+  SIZES_TECHNIQUE,
+} from '@/lib/image-sizes'
 import type { ArtKind } from '@/lib/mock-data'
 
 /**
@@ -45,7 +52,7 @@ export function HeroBanner({
           fallbackKind={art}
           fallbackSeed="hero-banner"
           priority
-          sizes="(min-width: 1024px) 50vw, 100vw"
+          sizes={SIZES_HERO}
         />
       </div>
     </section>
@@ -63,7 +70,7 @@ export function PromoBanner({
           asset={assetIfPresent(categoryImages[href.split('/').pop() ?? ''])}
           fallbackKind={art}
           fallbackSeed={`promo-${art}`}
-          sizes="(min-width: 768px) 220px, 120px"
+          sizes={SIZES_PROMO}
         />
       </div>
       <div className="pm-promo__content">
@@ -86,7 +93,7 @@ export function CategoryTile({
           asset={assetIfPresent(categoryImages[slug])}
           fallbackKind={art}
           fallbackSeed={`tile-${slug}`}
-          sizes="(min-width: 768px) 14vw, 88px"
+          sizes={SIZES_CATEGORY_TILE}
         />
       </span>
       <span className="pm-tile__label">{name}</span>
@@ -103,7 +110,7 @@ export function CeremonyTile({ name, slug }: { name: string; slug: string }) {
           asset={assetIfPresent(ceremonyImages[slug])}
           fallbackKind="wedding"
           fallbackSeed={`ceremony-${slug}`}
-          sizes="(min-width: 768px) 20vw, 45vw"
+          sizes={SIZES_CEREMONY_TILE}
         />
       </span>
       <span className="pm-ceremony__label">{name}</span>
@@ -151,7 +158,7 @@ export function TechniqueRail() {
               asset={assetIfPresent(categoryImages[t.slug])}
               fallbackKind={t.art}
               fallbackSeed={`tech-${t.name}`}
-              sizes="(min-width: 768px) 20vw, 140px"
+              sizes={SIZES_TECHNIQUE}
             />
           </span>
           <span className="pm-technique__name">{t.name}</span>

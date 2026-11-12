@@ -6,6 +6,7 @@ import { ProductImage } from '@/components/ds/ProductImage'
 import { categoryImages } from '@/lib/product-images'
 import { assetIfPresent } from '@/lib/image-availability'
 import { categories } from '@/lib/mock-data'
+import { SIZES_EDITORIAL } from '@/lib/image-sizes'
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }))
@@ -28,7 +29,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
       <div className="pm-collection-intro">
         <div className="pm-collection-intro__media">
-          <ProductImage asset={assetIfPresent(categoryImages[slug])} fallbackKind={category.art} fallbackSeed={slug} priority fit="contain" sizes="(min-width: 768px) 50vw, 100vw" />
+          <ProductImage asset={assetIfPresent(categoryImages[slug])} fallbackKind={category.art} fallbackSeed={slug} priority fit="contain" sizes={SIZES_EDITORIAL} />
         </div>
         <div className="pm-collection-intro__body">
           <p className="pm-small pm-ink-brand">The PunjabiMarts collection</p>

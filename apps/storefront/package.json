@@ -8,9 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "predev": "node scripts/scan-images.mjs",
-    "prebuild": "node scripts/scan-images.mjs",
+    "prebuild": "node scripts/scan-images.mjs && node scripts/audit-image-sizes.mjs",
     "images:scan": "node scripts/scan-images.mjs",
-    "images:prompts": "node scripts/export-image-prompts.mjs"
+    "images:prompts": "node scripts/export-image-prompts.mjs",
+    "images:audit": "node scripts/audit-image-sizes.mjs",
+    "brand:logo": "node scripts/build-brand-logo.mjs"
   },
   "dependencies": {
     "@punjabimarts/design-system": "*",

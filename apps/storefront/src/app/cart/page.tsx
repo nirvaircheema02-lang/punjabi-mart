@@ -12,6 +12,7 @@ import {
   formatINR,
   type Product,
 } from "@/lib/mock-data";
+import { SIZES_CART_THUMB } from '@/lib/image-sizes'
 
 /**
  * Cart — the multi-seller split made visible.
@@ -122,7 +123,7 @@ export default function CartPage() {
                         }
                         fallbackKind={l.product.art}
                         fallbackSeed={l.product.id}
-                        sizes="96px"
+                        sizes={SIZES_CART_THUMB}
                       />
                     </Link>
                     <div className="pm-cartline__body">

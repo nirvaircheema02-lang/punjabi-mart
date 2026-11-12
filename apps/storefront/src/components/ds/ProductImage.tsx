@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { ProductArt } from './ProductArt'
 import type { ArtKind } from '@/lib/mock-data'
 import type { ImageAsset } from '@/lib/product-images'
+import { SIZES_CARD } from '@/lib/image-sizes'
 
 /**
  * ProductImage — the single image primitive for the storefront.
@@ -21,7 +22,13 @@ export function ProductImage({
   asset,
   fallbackKind,
   fallbackSeed,
-  sizes = '(min-width: 1024px) 33vw, 50vw',
+  /**
+   * Defaults to the listing-card geometry because that is the commonest
+   * caller. Any role with a different width MUST pass its own — see
+   * lib/image-sizes.ts. A wrong `sizes` is invisible on a fast desktop and
+   * doubles the page weight on a phone.
+   */
+  sizes = SIZES_CARD,
   priority = false,
   fit = 'cover',
   className,

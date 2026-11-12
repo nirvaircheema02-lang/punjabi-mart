@@ -13,6 +13,7 @@ import {
   HeroBanner, PromoBanner, CategoryTile, TechniqueRail, TrustStrip, CeremonyTile,
 } from '@/components/ds/Banner'
 import { categories, ceremonies } from '@/lib/mock-data'
+import { SIZES_CARD_HOME, SIZES_EDITORIAL, SIZES_SHORTCUT } from '@/lib/image-sizes'
 
 /**
  * Homepage — "Everything Punjabi. One marketplace."
@@ -68,7 +69,7 @@ export default function HomePage() {
                     asset={assetIfPresent(categoryImages[item.slug])}
                     fallbackKind={item.slug === 'jutti' ? 'juttis' : item.slug === 'pantry' ? 'pantry' : item.slug === 'phulkari' ? 'phulkari' : 'wedding'}
                     fallbackSeed={`shortcut-${item.slug}`}
-                    sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 48vw"
+                    sizes={SIZES_SHORTCUT}
                   />
                 </span>
               </Link>
@@ -117,13 +118,13 @@ export default function HomePage() {
         <section className="pm-section">
           <SectionHeader title="Trending now" description="Moving fastest across our shops" viewAllHref="/c/turbans" />
           <div className="pm-grid">
-            {trending.map((p, i) => <ProductCard key={p.id} product={p} priority={i < 2} />)}
+            {trending.map((p, i) => <ProductCard key={p.id} product={p} priority={i < 2} sizes={SIZES_CARD_HOME} />)}
           </div>
         </section>
 
         <section className="pm-section">
           <SectionHeader title="Turban & Sikh essentials" description="Voile, rubia, patkas, baaz and pins" viewAllHref="/c/turbans" />
-          <div className="pm-grid">{pick('turbans').map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{pick('turbans').map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
 
         <section className="pm-section">
@@ -135,32 +136,32 @@ export default function HomePage() {
 
         <section className="pm-section">
           <SectionHeader title="Phulkari & craft" description="Hand-embroidered by Punjab’s own clusters" viewAllHref="/c/phulkari" />
-          <div className="pm-grid">{pick('phulkari').map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{pick('phulkari').map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
 
         <section className="pm-section">
           <SectionHeader title="Punjabi jutti" description="Hand-stitched, never glued" viewAllHref="/c/jutti" />
-          <div className="pm-grid">{pick('jutti').map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{pick('jutti').map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
 
         <section className="pm-section">
           <SectionHeader title="Wedding & Shagun" description="Roka through to the wedding day" viewAllHref="/c/ceremony-sets" />
-          <div className="pm-grid">{pick('ceremony-sets').map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{pick('ceremony-sets').map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
 
         <section className="pm-section">
           <SectionHeader title="Kurta pajama & men’s" description="Cotton and linen, plain through to wedding" viewAllHref="/c/kurta-pajama" />
-          <div className="pm-grid">{pick('kurta-pajama').map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{pick('kurta-pajama').map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
 
         <section className="pm-section">
           <SectionHeader title="Jewellery & accessories" description="Jhumkas, kadas, parandas and potlis" viewAllHref="/c/jewellery" />
-          <div className="pm-grid">{pick('jewellery').map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{pick('jewellery').map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
 
         <section className="pm-section">
           <SectionHeader title="Gifts from Punjab" description="Things that travel well and arrive ready to give" viewAllHref="/c/gifts" />
-          <div className="pm-grid">{gifting.map((p) => <ProductCard key={p.id} product={p} />)}</div>
+          <div className="pm-grid">{gifting.map((p) => <ProductCard key={p.id} product={p} sizes={SIZES_CARD_HOME} />)}</div>
         </section>
       </div>
 
@@ -170,7 +171,7 @@ export default function HomePage() {
         <section className="pm-section">
           <div className="pm-editorial">
             <div className="pm-editorial__media">
-              <ProductImage asset={assetIfPresent(categoryImages.turbans)} fallbackKind="turbans" fallbackSeed="journal-turban" sizes="(min-width: 768px) 50vw, 100vw" />
+              <ProductImage asset={assetIfPresent(categoryImages.turbans)} fallbackKind="turbans" fallbackSeed="journal-turban" sizes={SIZES_EDITORIAL} />
             </div>
             <div className="pm-editorial__body" data-variant="editorial">
               <p className="pm-small pm-ink-muted">From the journal</p>
@@ -187,6 +188,7 @@ export default function HomePage() {
         <section className="pm-section">
           <SectionHeader title="Pantry" description="Ghee, oils and pickles from Punjab" viewAllHref="/c/pantry" />
           <div className="pm-grid pm-grid--fmcg">
+            {/* Pantry runs the denser fmcg grid, so it keeps the card's own fmcg geometry. */}
             {pantry.map((p) => <ProductCard key={p.id} product={p} />)}
           </div>
         </section>

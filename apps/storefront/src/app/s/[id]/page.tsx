@@ -5,6 +5,7 @@ import { ProductImage } from '@/components/ds/ProductImage'
 import { sellerImages } from '@/lib/product-images'
 import { assetIfPresent } from '@/lib/image-availability'
 import { getSellerById, productsBySeller, sellers } from '@/lib/mock-data'
+import { SIZES_SELLER_AVATAR } from '@/lib/image-sizes'
 
 export function generateStaticParams() {
   return sellers.map((s) => ({ id: s.id }))
@@ -31,7 +32,7 @@ export default async function SellerPage({ params }: { params: Promise<{ id: str
       <section className="pm-section">
         <div className="pm-shop">
           <div className="pm-shop__art" aria-hidden="true">
-            <ProductImage asset={assetIfPresent(sellerImages[seller.id])} fallbackKind="turbans" fallbackSeed={`shop-${seller.id}`} sizes="240px" />
+            <ProductImage asset={assetIfPresent(sellerImages[seller.id])} fallbackKind="turbans" fallbackSeed={`shop-${seller.id}`} sizes={SIZES_SELLER_AVATAR} />
           </div>
           <div className="pm-shop__meta">
             <h1 className="pm-h2">{seller.name}</h1>

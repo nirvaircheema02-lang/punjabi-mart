@@ -6,6 +6,7 @@ import { PdpPanel } from "@/components/ds/PdpPanel";
 import { ProductImage } from "@/components/ds/ProductImage";
 import { productImages } from "@/lib/product-images";
 import { assetIfPresent } from "@/lib/image-availability";
+import { SIZES_PDP } from '@/lib/image-sizes'
 export function LiveProduct({ slug: supplied }: { slug?: string }) {
   const params = useSearchParams();
   const slug = supplied ?? params.get("slug");
@@ -40,7 +41,7 @@ export function LiveProduct({ slug: supplied }: { slug?: string }) {
               fallbackKind={p.art}
               fallbackSeed={p.id}
               priority
-              sizes="(min-width:1024px) 55vw,100vw"
+              sizes={SIZES_PDP}
             />
           </div>
           {p.isDemo && (
