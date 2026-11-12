@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+build/
+vendor/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+storage/
+.tools/
+*.sqlite
+*.sqlite-*
+.phpunit.cache/

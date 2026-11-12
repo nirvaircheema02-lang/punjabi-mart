@@ -1,0 +1,10 @@
+{
+  "name": "punjabimarts",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace=storefront",
+    "build": "npm run build --workspace=storefront",
+    "ds": "python3 -m http.server 4321 --directory packages/design-system"
+  }
+}

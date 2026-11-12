@@ -1,0 +1,97 @@
+{
+  "report": [
+    {
+      "device": "desktop",
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "images": 80,
+      "broken": []
+    },
+    {
+      "device": "desktop",
+      "route": "/c/phulkari",
+      "status": 200,
+      "overflow": false,
+      "images": 10,
+      "broken": []
+    },
+    {
+      "device": "desktop",
+      "route": "/p/phulkari-dupatta-maroon",
+      "status": 200,
+      "overflow": false,
+      "images": 9,
+      "broken": []
+    },
+    {
+      "device": "desktop",
+      "route": "/ceremony/roka",
+      "status": 200,
+      "overflow": false,
+      "images": 8,
+      "broken": []
+    },
+    {
+      "device": "desktop",
+      "route": "/s/s2",
+      "status": 200,
+      "overflow": false,
+      "images": 10,
+      "broken": []
+    },
+    {
+      "device": "desktop",
+      "route": "/cart",
+      "cartLines": 1,
+      "thumbnailLoaded": true
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "images": 80,
+      "broken": []
+    },
+    {
+      "device": "mobile",
+      "route": "/c/phulkari",
+      "status": 200,
+      "overflow": false,
+      "images": 10,
+      "broken": []
+    },
+    {
+      "device": "mobile",
+      "route": "/p/phulkari-dupatta-maroon",
+      "status": 200,
+      "overflow": false,
+      "images": 9,
+      "broken": []
+    },
+    {
+      "device": "mobile",
+      "route": "/ceremony/roka",
+      "status": 200,
+      "overflow": false,
+      "images": 8,
+      "broken": []
+    },
+    {
+      "device": "mobile",
+      "route": "/s/s2",
+      "status": 200,
+      "overflow": false,
+      "images": 10,
+      "broken": []
+    },
+    {
+      "device": "mobile",
+      "route": "/cart",
+      "cartLines": 1,
+      "thumbnailLoaded": true
+    }
+  ],
+  "errors": []
+}

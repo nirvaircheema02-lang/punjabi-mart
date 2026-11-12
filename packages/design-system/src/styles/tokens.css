@@ -1,0 +1,289 @@
+/**
+ * PunjabiMarts Design System V1 — token layer
+ * Petrol blue-green · warm ivory · terracotta
+ *
+ * This file is the single source of truth at runtime. Components reference
+ * var(--*) only. No component may hard-code a hex, px radius, or shadow.
+ */
+
+:root {
+  /* ─── TIER 1 · PRIMITIVES ─────────────────────────────────────────── */
+  --petrol-50: #F1F8F7;  --petrol-100: #E8F3F2; --petrol-200: #D2E7E5;
+  --petrol-300: #ACD0CE; --petrol-400: #79AAA9; --petrol-500: #0F5962;
+  --petrol-600: #173F48; --petrol-700: #12343D; --petrol-800: #0D2A31; --petrol-900: #082127;
+
+  --terracotta-50: #FCF3EF;  --terracotta-100: #F9E7DF; --terracotta-200: #F1CCBD;
+  --terracotta-300: #E5A88E; --terracotta-400: #CB7859; --terracotta-500: #B4573B;
+  --terracotta-600: #A24931; --terracotta-700: #873823; --terracotta-800: #6A2C1D; --terracotta-900: #4C2118;
+
+  --neutral-0: #FFFFFF;  --neutral-50: #FAF8F2; --neutral-100: #F4F0E8;
+  --neutral-200: #E6E1D8; --neutral-300: #D0C9BE; --neutral-400: #AFA89D;
+  --neutral-500: #857E76; --neutral-600: #5B6668; --neutral-700: #424E50;
+  --neutral-800: #273238; --neutral-900: #172127;
+
+  --green-50: #EDF7F0; --green-500: #2A9354; --green-600: #1E7A3E;
+  --amber-50: #FDF6E9; --amber-500: #D69520; --amber-600: #B4791E;
+  --red-50: #FDF0EF;   --red-500: #D43128;   --red-600: #B3261E;
+
+  /* ─── TIER 2 · SEMANTIC ───────────────────────────────────────────── */
+  --surface-page: var(--neutral-0);
+  --surface-subtle: var(--neutral-50);
+  --surface-sunken: var(--neutral-100);
+  --surface-raised: var(--neutral-0);
+  --surface-inverse: var(--neutral-900);
+  --surface-brand-subtle: var(--petrol-50);
+  --surface-brand-muted: var(--petrol-100);
+
+  --ink-primary: var(--neutral-900);
+  --ink-secondary: var(--neutral-700);
+  --ink-muted: var(--neutral-600);
+  --ink-disabled: var(--neutral-400);
+  --ink-inverse: var(--neutral-0);
+  --ink-brand: var(--petrol-600);
+
+  --border-subtle: var(--neutral-200);
+  --border-default: var(--neutral-300);
+  --border-strong: var(--neutral-400);
+  --border-focus: var(--petrol-600);
+
+  --action-primary: var(--petrol-500);
+  --action-primary-hover: var(--petrol-600);
+  --action-primary-active: var(--petrol-800);
+  --action-primary-background: linear-gradient(115deg, var(--petrol-500), var(--petrol-600));
+  --action-primary-background-hover: linear-gradient(115deg, var(--petrol-600), var(--petrol-700));
+  --action-primary-background-active: var(--petrol-800);
+  --action-primary-sheen: linear-gradient(105deg, transparent 25%, rgba(255,255,255,.16) 50%, transparent 75%);
+  --motion-shimmer: 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  --action-primary-ink: var(--neutral-0);
+  --action-secondary-border: var(--neutral-300);
+  --action-secondary-ink: var(--neutral-900);
+  --action-disabled: var(--neutral-200);
+  --action-disabled-ink: var(--neutral-400);
+
+  /* Terracotta from the logo: use as a small accent and on commerce controls. */
+  --accent-fill: var(--terracotta-500);
+  --accent-fill-hover: var(--terracotta-600);
+  --accent-ink: var(--terracotta-700);
+  --accent-subtle: var(--terracotta-50);
+
+  --success-ink: var(--green-600);   --success-surface: var(--green-50);
+  --warning-ink: var(--amber-600);   --warning-surface: var(--amber-50);
+  --error-ink: var(--red-600);       --error-surface: var(--red-50);
+  --error-border: var(--red-500);
+
+  --price-ink: var(--neutral-900);
+  --price-strike-ink: var(--neutral-500);
+  --savings-ink: var(--green-600);
+  --rating-fill: var(--amber-500);
+  --stock-low-ink: var(--amber-600);
+  --stock-out-ink: var(--neutral-500);
+
+  /* ── Typography ────────────────────────────────────────────────────────
+     ONE family for the entire product — storefront, Seller Center and Admin.
+     Hierarchy comes from weight, size, line-height, tracking and whitespace,
+     never from a second typeface.
+
+     A local system stack keeps the storefront usable offline. */
+  --font-sans: 'Avenir Next', Avenir, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --weight-regular: 400; --weight-medium: 500; --weight-semibold: 600;
+  --weight-bold: 700; --weight-extrabold: 800;
+
+  /* Mobile-first sizes; desktop steps applied at the lg breakpoint below. */
+  --text-display: 32px;  --leading-display: 40px;
+  --text-h1: 28px;       --leading-h1: 36px;
+  --text-h2: 24px;       --leading-h2: 32px;
+  --text-h3: 20px;       --leading-h3: 28px;
+  --text-h4: 18px;       --leading-h4: 26px;
+  --text-body-lg: 16px;  --leading-body-lg: 24px;
+  --text-body: 14px;     --leading-body: 20px;
+  --text-small: 13px;    --leading-small: 18px;
+  --text-caption: 12px;  --leading-caption: 16px;
+
+  /* Price scale — deliberately separate from body. */
+  --price-lg: 20px;       --leading-price-lg: 28px;
+  --price-md: 16px;       --leading-price-md: 24px;
+  --price-sm: 14px;       --leading-price-sm: 20px;
+  --price-strike: 13px;   --price-discount: 13px;
+
+  /* Named commerce roles — so no screen invents its own values. */
+  --text-section: 20px;     --leading-section: 28px;
+  --text-subheading: 16px;  --leading-subheading: 24px;
+  --text-product: 14px;     --leading-product: 20px;
+  --text-nav: 14px;         --leading-nav: 20px;
+  --text-button: 14px;      --leading-button: 20px;
+  --text-meta: 13px;        --leading-meta: 18px;
+
+  /* Weights per role. With one family, weight carries the hierarchy. */
+  --weight-display: var(--weight-extrabold);   /* 800 */
+  --weight-heading: var(--weight-bold);        /* 700 */
+  --weight-subheading: var(--weight-semibold); /* 600 */
+  --weight-body: var(--weight-regular);        /* 400 */
+  --weight-product: var(--weight-medium);      /* 500 */
+  --weight-meta: var(--weight-medium);         /* 500 */
+  --weight-price: var(--weight-bold);          /* 700 */
+  --weight-nav: var(--weight-semibold);        /* 600 */
+
+  /* Tracking — kept subtle; no heavy negative tracking. */
+  --tracking-display: -0.02em;
+  --tracking-heading: -0.01em;
+  --tracking-body: 0;
+  --tracking-ui: 0.01em;
+
+  /* Storefront body default is 16px; admin overrides to 14px via density. */
+  --text-body-default: var(--text-body-lg);
+  --leading-body-default: var(--leading-body-lg);
+
+  /* Spacing — 4px base */
+  --space-0: 0px;  --space-1: 4px;  --space-2: 8px;  --space-3: 12px;
+  --space-4: 16px; --space-5: 20px; --space-6: 24px; --space-8: 32px;
+  --space-10: 40px; --space-12: 48px; --space-16: 64px; --space-20: 80px; --space-24: 96px;
+
+  --space-compact: var(--space-1);
+  --space-control: var(--space-2);
+  --space-component: var(--space-3);
+  --space-card: var(--space-4);
+  --space-group: var(--space-6);
+  --space-section: var(--space-16);
+
+  /* Radius */
+  --radius-xs: 4px; --radius-sm: 8px; --radius-md: 12px;
+  --radius-lg: 16px; --radius-xl: 20px; --radius-pill: 999px;
+
+  /* Tightened one step across the board (2026-09-24) for a sharper, more
+     premium read. The primitive scale is unchanged — only the semantic
+     mappings moved, so nothing invented a new value.
+     Nesting rule still holds: 12px card − 4px padding = 8px image. */
+  --radius-control: var(--radius-sm);   /* 12 → 8  */
+  --radius-image: var(--radius-sm);     /* 12 → 8  */
+  --radius-card: var(--radius-md);      /* 16 → 12 */
+  --radius-overlay: var(--radius-lg);   /* 20 → 16 */
+  --radius-dense: var(--radius-xs);     /*  8 → 4  */
+
+  /* Shadows — overlays only. Product cards never float. */
+  --shadow-raised: 0 1px 2px rgba(26, 21, 28, 0.05);
+  --shadow-dropdown: 0 2px 8px rgba(26, 21, 28, 0.06);
+  --shadow-overlay: 0 8px 24px rgba(26, 21, 28, 0.08);
+
+  /* Control sizing — 44px minimum touch target, including steppers. */
+  --control-compact: 36px;
+  --control-standard: 44px;
+  --control-prominent: 48px;
+  --touch-min: 44px;
+
+  /* Motion */
+  --motion-interaction: 120ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --motion-overlay: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout */
+  --content-max: 1360px;
+  --page-padding: var(--space-4);
+  --z-sticky: 100; --z-overlay: 200; --z-modal: 300; --z-toast: 400;
+}
+
+/* Tablet */
+@media (min-width: 768px) { :root { --page-padding: var(--space-6); } }
+
+/* Desktop type ramp + page padding */
+@media (min-width: 1024px) {
+  :root {
+    --text-display: 48px; --leading-display: 56px;
+    --text-h1: 40px;      --leading-h1: 48px;
+    --text-h2: 32px;      --leading-h2: 40px;
+    --text-h3: 24px;      --leading-h3: 32px;
+    --text-h4: 20px;      --leading-h4: 28px;
+    --page-padding: var(--space-8);
+  }
+}
+
+/**
+ * DENSITY VARIANT — Seller Center & Admin.
+ * Same tokens, tighter expression. NOT a second design system.
+ */
+[data-density='compact'] {
+  --text-body-default: var(--text-body);
+  --leading-body-default: var(--leading-body);
+  --control-standard: 40px;
+  --radius-control: var(--radius-dense);
+  --radius-card: var(--radius-dense);
+  --space-card: var(--space-3);
+  --space-group: var(--space-4);
+  --space-section: var(--space-8);
+}
+
+/**
+ * EDITORIAL VARIANT — Wedding/Shagun, seller stories, journal.
+ *
+ * Still a governed variant of the same system, but it NO LONGER changes the
+ * typeface — there is one family product-wide. The premium feel comes from
+ * airier rhythm, larger display sizes and more whitespace instead.
+ * It may not introduce new colours, new components or a second font.
+ */
+[data-variant='editorial'] {
+  --space-card: var(--space-6);
+  --space-group: var(--space-10);
+  --space-section: var(--space-24);
+  --radius-card: var(--radius-md);
+}
+
+/**
+ * INVERSE SURFACE — dark sections (footer today; usable for hero bands,
+ * premium promo strips or a seller spotlight later).
+ *
+ * Deliberately a reusable token scope rather than footer-specific CSS: any
+ * existing component dropped inside it recolours correctly with no new
+ * classes. Every value below is AA or better on the dark ground.
+ *
+ * Brand ink lightens on this dark ground; primary buttons become ivory.
+ */
+[data-theme='inverse'] {
+  --surface-page: var(--neutral-900);
+  --surface-subtle: var(--neutral-800);
+  --surface-sunken: var(--neutral-800);
+  --surface-raised: var(--neutral-800);
+  --surface-brand-subtle: rgba(172, 208, 206, 0.14);
+  --surface-brand-muted: rgba(172, 208, 206, 0.23);
+
+  --ink-primary: var(--neutral-0);
+  --ink-secondary: var(--neutral-300);
+  --ink-muted: var(--neutral-400);
+  --ink-inverse: var(--neutral-900);
+  --ink-brand: var(--petrol-200);
+
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-default: rgba(255, 255, 255, 0.16);
+  --border-strong: rgba(255, 255, 255, 0.28);
+  --border-focus: var(--petrol-200);
+
+  --action-primary: var(--neutral-50);
+  --action-primary-hover: var(--petrol-100);
+  --action-primary-active: var(--petrol-200);
+  --action-primary-background: var(--neutral-50);
+  --action-primary-background-hover: var(--petrol-100);
+  --action-primary-background-active: var(--petrol-200);
+  --action-primary-sheen: linear-gradient(105deg, transparent 25%, rgba(15,89,98,.10) 50%, transparent 75%);
+  --action-primary-ink: var(--petrol-900);
+  --action-secondary-border: rgba(255, 255, 255, 0.28);
+  --action-secondary-ink: var(--neutral-0);
+
+  --accent-ink: var(--terracotta-300);
+  --accent-subtle: rgba(180, 87, 59, 0.20);
+  --savings-ink: #6FD08C;
+  --success-ink: #6FD08C;
+  --price-ink: var(--neutral-0);
+  --price-strike-ink: var(--neutral-500);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-interaction: 1ms linear;
+    --motion-transition: 1ms linear;
+    --motion-overlay: 1ms linear;
+  }
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}

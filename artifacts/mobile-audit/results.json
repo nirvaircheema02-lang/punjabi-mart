@@ -1,0 +1,2069 @@
+[
+  {
+    "path": "/",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Punjab, made for your everyday",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__art",
+        "text": "",
+        "x": 328,
+        "y": 4082,
+        "w": 140,
+        "h": 140
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "x": 329,
+        "y": 4083,
+        "w": 138,
+        "h": 138
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__name",
+        "text": "Zari",
+        "x": 328,
+        "y": 4230,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__note",
+        "text": "Metallic brocade",
+        "x": 328,
+        "y": 4262,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "A",
+        "class": "pm-technique",
+        "text": "VoileFine turban cloth",
+        "x": 484,
+        "y": 4082,
+        "w": 140,
+        "h": 228
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__art",
+        "text": "",
+        "x": 484,
+        "y": 4082,
+        "w": 140,
+        "h": 140
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "x": 485,
+        "y": 4083,
+        "w": 138,
+        "h": 138
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__name",
+        "text": "Voile",
+        "x": 484,
+        "y": 4230,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__note",
+        "text": "Fine turban cloth",
+        "x": 484,
+        "y": 4262,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "A",
+        "class": "pm-technique",
+        "text": "JadauSet stone jewellery",
+        "x": 640,
+        "y": 4082,
+        "w": 140,
+        "h": 228
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__art",
+        "text": "",
+        "x": 640,
+        "y": 4082,
+        "w": 140,
+        "h": 140
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "x": 641,
+        "y": 4083,
+        "w": 138,
+        "h": 138
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__name",
+        "text": "Jadau",
+        "x": 640,
+        "y": 4230,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__note",
+        "text": "Set stone jewellery",
+        "x": 640,
+        "y": 4262,
+        "w": 140,
+        "h": 24
+      }
+    ],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 18101,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent",
+        "text": "Shop collections",
+        "x": 40,
+        "y": 545,
+        "w": 187,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 18153,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/login",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Welcome back",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input ",
+        "text": "",
+        "x": 16,
+        "y": 507,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input ",
+        "text": "",
+        "x": 16,
+        "y": 599,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1588,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary pm-btn--block",
+        "text": "Sign in",
+        "x": 16,
+        "y": 719,
+        "w": 288,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 1640,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/search",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Find your next favourite",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 184,
+        "y": 413,
+        "w": 13,
+        "h": 13
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All pricesUnder ₹500₹500–₹1,500₹1,500–₹3,000₹3,000+",
+        "x": 51,
+        "y": 311,
+        "w": 151,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All shopsPunjabiMartsPartner shops",
+        "x": 16,
+        "y": 355,
+        "w": 142,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "RelevancePrice: low to highPrice: high to lowRating",
+        "x": 16,
+        "y": 399,
+        "w": 168,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 184,
+        "y": 413,
+        "w": 13,
+        "h": 13,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 21778,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Apply",
+        "x": 16,
+        "y": 443,
+        "w": 81,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 21830,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/c/turbans",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Turbans",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 184,
+        "y": 845,
+        "w": 13,
+        "h": 13
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All pricesUnder ₹500₹500–₹1,500₹1,500–₹3,000₹3,000+",
+        "x": 51,
+        "y": 743,
+        "w": 151,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All shopsPunjabiMartsPartner shops",
+        "x": 16,
+        "y": 787,
+        "w": 142,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "RelevancePrice: low to highPrice: high to lowRating",
+        "x": 16,
+        "y": 831,
+        "w": 168,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 184,
+        "y": 845,
+        "w": 13,
+        "h": 13,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 3753,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Apply",
+        "x": 16,
+        "y": 875,
+        "w": 81,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 3805,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/p/full-voile-turban",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Full voile turban, soft finish",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1226,
+        "w": 197,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 2623,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 2675,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/cart",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Your cart",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1757,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent pm-btn--block",
+        "text": "Proceed to checkout",
+        "x": 41,
+        "y": 907,
+        "w": 238,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 1809,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/checkout",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Sign in to checkout",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1162,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Continue to sign in",
+        "x": 77,
+        "y": 337,
+        "w": 166,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 1214,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/account",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "You’re not signed in",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1182,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent",
+        "text": "Login or create account",
+        "x": 58,
+        "y": 353,
+        "w": 205,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 1234,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/sell",
+    "width": 320,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Sign in to continue",
+    "viewport": 320,
+    "scroll": 320,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 116,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1106,
+        "w": 288,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Sign in",
+        "x": 116,
+        "y": 321,
+        "w": 87,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 16,
+        "y": 1158,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Punjab, made for your everyday",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__art",
+        "text": "",
+        "x": 328,
+        "y": 4225,
+        "w": 140,
+        "h": 140
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "x": 329,
+        "y": 4226,
+        "w": 138,
+        "h": 138
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__name",
+        "text": "Zari",
+        "x": 328,
+        "y": 4373,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__note",
+        "text": "Metallic brocade",
+        "x": 328,
+        "y": 4405,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "A",
+        "class": "pm-technique",
+        "text": "VoileFine turban cloth",
+        "x": 484,
+        "y": 4225,
+        "w": 140,
+        "h": 228
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__art",
+        "text": "",
+        "x": 484,
+        "y": 4225,
+        "w": 140,
+        "h": 140
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "x": 485,
+        "y": 4226,
+        "w": 138,
+        "h": 138
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__name",
+        "text": "Voile",
+        "x": 484,
+        "y": 4373,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__note",
+        "text": "Fine turban cloth",
+        "x": 484,
+        "y": 4405,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "A",
+        "class": "pm-technique",
+        "text": "JadauSet stone jewellery",
+        "x": 640,
+        "y": 4225,
+        "w": 140,
+        "h": 228
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__art",
+        "text": "",
+        "x": 640,
+        "y": 4225,
+        "w": 140,
+        "h": 140
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "x": 641,
+        "y": 4226,
+        "w": 138,
+        "h": 138
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__name",
+        "text": "Jadau",
+        "x": 640,
+        "y": 4373,
+        "w": 140,
+        "h": 24
+      },
+      {
+        "tag": "SPAN",
+        "class": "pm-technique__note",
+        "text": "Set stone jewellery",
+        "x": 640,
+        "y": 4405,
+        "w": 140,
+        "h": 24
+      }
+    ],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 17908,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent",
+        "text": "Shop collections",
+        "x": 40,
+        "y": 463,
+        "w": 187,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 17908,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/login",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Welcome back",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input ",
+        "text": "",
+        "x": 16,
+        "y": 489,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input ",
+        "text": "",
+        "x": 16,
+        "y": 581,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1554,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary pm-btn--block",
+        "text": "Sign in",
+        "x": 16,
+        "y": 701,
+        "w": 358,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 1554,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/search",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Find your next favourite",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 355,
+        "y": 351,
+        "w": 13,
+        "h": 13
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All pricesUnder ₹500₹500–₹1,500₹1,500–₹3,000₹3,000+",
+        "x": 51,
+        "y": 293,
+        "w": 151,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All shopsPunjabiMartsPartner shops",
+        "x": 16,
+        "y": 337,
+        "w": 142,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "RelevancePrice: low to highPrice: high to lowRating",
+        "x": 187,
+        "y": 337,
+        "w": 168,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 355,
+        "y": 351,
+        "w": 13,
+        "h": 13,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 21812,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Apply",
+        "x": 72,
+        "y": 381,
+        "w": 81,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 21812,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/c/turbans",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Turbans",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 355,
+        "y": 836,
+        "w": 13,
+        "h": 13
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All pricesUnder ₹500₹500–₹1,500₹1,500–₹3,000₹3,000+",
+        "x": 51,
+        "y": 778,
+        "w": 151,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All shopsPunjabiMartsPartner shops",
+        "x": 16,
+        "y": 822,
+        "w": 142,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "RelevancePrice: low to highPrice: high to lowRating",
+        "x": 187,
+        "y": 822,
+        "w": 168,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 355,
+        "y": 836,
+        "w": 13,
+        "h": 13,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 3711,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Apply",
+        "x": 72,
+        "y": 866,
+        "w": 81,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 3711,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/p/full-voile-turban",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Full voile turban, soft finish",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1244,
+        "w": 229,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 2583,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 2583,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/cart",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Your cart",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1647,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent pm-btn--block",
+        "text": "Proceed to checkout",
+        "x": 41,
+        "y": 813,
+        "w": 308,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 1647,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/checkout",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Sign in to checkout",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1144,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Continue to sign in",
+        "x": 112,
+        "y": 319,
+        "w": 166,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 1144,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/account",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "You’re not signed in",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1144,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent",
+        "text": "Login or create account",
+        "x": 93,
+        "y": 315,
+        "w": 205,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 1144,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/sell",
+    "width": 390,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Sign in to continue",
+    "viewport": 390,
+    "scroll": 390,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 16,
+        "y": 98,
+        "w": 358,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 16,
+        "y": 1088,
+        "w": 243,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Sign in",
+        "x": 151,
+        "y": 303,
+        "w": 87,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 267,
+        "y": 1088,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Punjab, made for your everyday",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 19114,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent",
+        "text": "Shop collections",
+        "x": 72,
+        "y": 499,
+        "w": 187,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 19114,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/login",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Welcome back",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input ",
+        "text": "",
+        "x": 174,
+        "y": 417,
+        "w": 420,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input ",
+        "text": "",
+        "x": 174,
+        "y": 509,
+        "w": 420,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 1635,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary pm-btn--block",
+        "text": "Sign in",
+        "x": 174,
+        "y": 629,
+        "w": 420,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 1635,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/search",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Find your next favourite",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 605,
+        "y": 251,
+        "w": 13,
+        "h": 13
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All pricesUnder ₹500₹500–₹1,500₹1,500–₹3,000₹3,000+",
+        "x": 59,
+        "y": 237,
+        "w": 151,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All shopsPunjabiMartsPartner shops",
+        "x": 265,
+        "y": 237,
+        "w": 142,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "RelevancePrice: low to highPrice: high to lowRating",
+        "x": 437,
+        "y": 237,
+        "w": 168,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 605,
+        "y": 251,
+        "w": 13,
+        "h": 13,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 32101,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Apply",
+        "x": 24,
+        "y": 281,
+        "w": 81,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 32101,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/c/turbans",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Turbans",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 605,
+        "y": 547,
+        "w": 13,
+        "h": 13
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All pricesUnder ₹500₹500–₹1,500₹1,500–₹3,000₹3,000+",
+        "x": 59,
+        "y": 533,
+        "w": 151,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "All shopsPunjabiMartsPartner shops",
+        "x": 265,
+        "y": 533,
+        "w": 142,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "SELECT",
+        "class": "pm-input",
+        "text": "RelevancePrice: low to highPrice: high to lowRating",
+        "x": 437,
+        "y": 533,
+        "w": 168,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "",
+        "text": "",
+        "x": 605,
+        "y": 547,
+        "w": 13,
+        "h": 13,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 4626,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Apply",
+        "x": 24,
+        "y": 577,
+        "w": 81,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 4626,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/p/full-voile-turban",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Full voile turban, soft finish",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 24,
+        "y": 1588,
+        "w": 229,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 3060,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 3060,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/cart",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Your cart",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--tertiary pm-btn--compact",
+        "text": "Save for later",
+        "x": 117,
+        "y": 368,
+        "w": 127,
+        "h": 36
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--tertiary pm-btn--compact",
+        "text": "Remove",
+        "x": 252,
+        "y": 368,
+        "w": 94,
+        "h": 36
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 1680,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent pm-btn--block",
+        "text": "Proceed to checkout",
+        "x": 49,
+        "y": 693,
+        "w": 670,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 1680,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/checkout",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Sign in to checkout",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 1241,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Continue to sign in",
+        "x": 301,
+        "y": 263,
+        "w": 166,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 1241,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/account",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "You’re not signed in",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 1241,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary pm-btn--prominent",
+        "text": "Login or create account",
+        "x": 282,
+        "y": 259,
+        "w": 205,
+        "h": 48
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 1241,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/sell",
+    "width": 768,
+    "title": "PunjabiMarts — Everything Punjabi, one marketplace",
+    "heading": "Sign in to continue",
+    "viewport": 768,
+    "scroll": 768,
+    "overflows": [],
+    "smallControls": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "class": "pm-input pm-searchbox__input",
+        "text": "",
+        "x": 260,
+        "y": 44,
+        "w": 336,
+        "h": 44,
+        "font": "16px"
+      },
+      {
+        "tag": "INPUT",
+        "class": "pm-input",
+        "text": "",
+        "x": 409,
+        "y": 1161,
+        "w": 220,
+        "h": 44,
+        "font": "16px"
+      }
+    ],
+    "primary": [
+      {
+        "tag": "A",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Sign in",
+        "x": 340,
+        "y": 223,
+        "w": 87,
+        "h": 44
+      },
+      {
+        "tag": "BUTTON",
+        "class": "pm-btn pm-btn--primary",
+        "text": "Subscribe",
+        "x": 637,
+        "y": 1161,
+        "w": 107,
+        "h": 44
+      }
+    ],
+    "errors": []
+  }
+]

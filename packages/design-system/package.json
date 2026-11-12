@@ -1,0 +1,15 @@
+{
+  "name": "@punjabimarts/design-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PunjabiMarts Design System V1 — Petrol & Terracotta",
+  "main": "src/tokens/semantic.ts",
+  "files": ["src"],
+  "exports": {
+    "./tokens": "./src/tokens/semantic.ts",
+    "./primitive": "./src/tokens/primitive.ts",
+    "./styles/tokens.css": "./src/styles/tokens.css",
+    "./styles/base.css": "./src/styles/base.css",
+    "./styles/components.css": "./src/styles/components.css"
+  }
+}

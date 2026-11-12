@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s1",
+    "name": "Sardar Pagri House",
+    "city": "Amritsar",
+    "taxRegistrationStatus": "pending",
+    "gstin": null,
+    "speciality": "Turbans, patkas and dastaar accessories",
+    "since": 1998,
+    "story": "A turban shop near Hall Bazar, run by the same family since 1998. They cut cloth to length by hand and know every shade by name."
+  },
+  {
+    "id": "s2",
+    "name": "Nazaqat Suits",
+    "city": "Amritsar",
+    "taxRegistrationStatus": "pending",
+    "gstin": null,
+    "speciality": "Phulkari, suits and bridal wear",
+    "since": 2006,
+    "story": "A suits and phulkari shop whose embroiderers work to patterns passed down through the family. Bridal orders still get measured in person."
+  },
+  {
+    "id": "s3",
+    "name": "Patiala Jutti Works",
+    "city": "Patiala",
+    "taxRegistrationStatus": "pending",
+    "gstin": null,
+    "speciality": "Hand-stitched juttis and mojaris",
+    "since": 2011,
+    "story": "Three generations of jutti makers working from a Patiala workshop. Every pair is lasted and stitched by hand, never glued."
+  },
+  {
+    "id": "s4",
+    "name": "Rasam Ceremony Co.",
+    "city": "Ludhiana",
+    "taxRegistrationStatus": "pending",
+    "gstin": null,
+    "speciality": "Wedding trays, boxes and ceremony sets",
+    "since": 2016,
+    "story": "A family workshop assembling ceremony sets to order — trays, boxes and covers for every rasam from Roka to Chura."
+  }
+]

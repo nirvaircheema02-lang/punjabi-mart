@@ -1,0 +1,933 @@
+[
+  {
+    "n": 1,
+    "save_to": "public/images/products/turbans/full-voile-turban.webp",
+    "ratio": "4:5",
+    "alt": "Full voile turban, soft finish",
+    "prompt": "Full voile turban, soft finish. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 2,
+    "save_to": "public/images/products/turbans/rubia-voile-turban.webp",
+    "ratio": "4:5",
+    "alt": "Heavy rubia voile turban, firm hold",
+    "prompt": "Heavy rubia voile turban, firm hold. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 3,
+    "save_to": "public/images/products/turbans/dumala-cloth.webp",
+    "ratio": "4:5",
+    "alt": "Dumala cloth, extra length",
+    "prompt": "Dumala cloth, extra length. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 4,
+    "save_to": "public/images/products/turbans/malmal-turban.webp",
+    "ratio": "4:5",
+    "alt": "Malmal turban, featherweight",
+    "prompt": "Malmal turban, featherweight. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 5,
+    "save_to": "public/images/products/turbans/f74-lightweight-turban.webp",
+    "ratio": "4:5",
+    "alt": "F-74 lightweight turban cloth",
+    "prompt": "F-74 lightweight turban cloth. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 6,
+    "save_to": "public/images/products/turbans/parna-cotton.webp",
+    "ratio": "4:5",
+    "alt": "Cotton parna, printed border",
+    "prompt": "Cotton parna, printed border. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 7,
+    "save_to": "public/images/products/turbans/keski-plain.webp",
+    "ratio": "4:5",
+    "alt": "Plain keski, everyday",
+    "prompt": "Plain keski, everyday. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 8,
+    "save_to": "public/images/products/turbans/ready-to-wear-turban.webp",
+    "ratio": "4:5",
+    "alt": "Ready-to-wear turban, pre-tied",
+    "prompt": "Ready-to-wear turban, pre-tied. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 9,
+    "save_to": "public/images/products/turbans/kids-turban-set.webp",
+    "ratio": "4:5",
+    "alt": "Kids turban, set of two",
+    "prompt": "Kids turban, set of two. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 10,
+    "save_to": "public/images/products/turbans/patka-2-tani.webp",
+    "ratio": "4:5",
+    "alt": "2 Tani patka, cotton",
+    "prompt": "2 Tani patka, cotton. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 11,
+    "save_to": "public/images/products/turbans/patka-4-tani.webp",
+    "ratio": "4:5",
+    "alt": "4 Tani patka, full coverage",
+    "prompt": "4 Tani patka, full coverage. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 12,
+    "save_to": "public/images/products/turbans/kids-patka-cotton.webp",
+    "ratio": "4:5",
+    "alt": "Cotton patka for kids, pack of three",
+    "prompt": "Cotton patka for kids, pack of three. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 13,
+    "save_to": "public/images/products/turbans/printed-patka.webp",
+    "ratio": "4:5",
+    "alt": "Printed patka, geometric",
+    "prompt": "Printed patka, geometric. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 14,
+    "save_to": "public/images/products/turbans/plain-patka-adult.webp",
+    "ratio": "4:5",
+    "alt": "Plain adult patka",
+    "prompt": "Plain adult patka. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 15,
+    "save_to": "public/images/products/turbans/bandana-cotton.webp",
+    "ratio": "4:5",
+    "alt": "Cotton bandana",
+    "prompt": "Cotton bandana. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 16,
+    "save_to": "public/images/products/turbans/fifti-classic.webp",
+    "ratio": "4:5",
+    "alt": "Fifti, classic cut",
+    "prompt": "Fifti, classic cut. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 17,
+    "save_to": "public/images/products/turbans/stocking-cap.webp",
+    "ratio": "4:5",
+    "alt": "Stocking cap, under-turban",
+    "prompt": "Stocking cap, under-turban. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 18,
+    "save_to": "public/images/products/turbans/baaz-salayi-steel.webp",
+    "ratio": "4:5",
+    "alt": "Baaz / salayi, stainless steel",
+    "prompt": "Baaz / salayi, stainless steel. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 19,
+    "save_to": "public/images/products/turbans/pen-baaz.webp",
+    "ratio": "4:5",
+    "alt": "Pen baaz, slim profile",
+    "prompt": "Pen baaz, slim profile. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 20,
+    "save_to": "public/images/products/turbans/turban-brush.webp",
+    "ratio": "4:5",
+    "alt": "Turban brush, wooden handle",
+    "prompt": "Turban brush, wooden handle. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 21,
+    "save_to": "public/images/products/turbans/pagg-pins-set.webp",
+    "ratio": "4:5",
+    "alt": "Pagg pins, set of six",
+    "prompt": "Pagg pins, set of six. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 22,
+    "save_to": "public/images/products/turbans/thatha-band.webp",
+    "ratio": "4:5",
+    "alt": "Thatha band",
+    "prompt": "Thatha band. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 23,
+    "save_to": "public/images/products/turbans/turban-accessory-kit.webp",
+    "ratio": "4:5",
+    "alt": "Turban accessory kit",
+    "prompt": "Turban accessory kit. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 24,
+    "save_to": "public/images/products/menswear/cotton-kurta-pajama-white.webp",
+    "ratio": "4:5",
+    "alt": "Cotton kurta pajama set, white",
+    "prompt": "Cotton kurta pajama set, white. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 25,
+    "save_to": "public/images/products/menswear/linen-kurta-pajama-sand.webp",
+    "ratio": "4:5",
+    "alt": "Linen kurta pajama set, sand",
+    "prompt": "Linen kurta pajama set, sand. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 26,
+    "save_to": "public/images/products/menswear/festive-kurta-pajama.webp",
+    "ratio": "4:5",
+    "alt": "Festive kurta pajama, tonal work",
+    "prompt": "Festive kurta pajama, tonal work. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 27,
+    "save_to": "public/images/products/menswear/wedding-kurta-pajama.webp",
+    "ratio": "4:5",
+    "alt": "Wedding kurta pajama, ivory",
+    "prompt": "Wedding kurta pajama, ivory. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 28,
+    "save_to": "public/images/products/menswear/embroidered-kurta-pajama.webp",
+    "ratio": "4:5",
+    "alt": "Embroidered kurta pajama",
+    "prompt": "Embroidered kurta pajama. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 29,
+    "save_to": "public/images/products/menswear/ready-made-kurta.webp",
+    "ratio": "4:5",
+    "alt": "Ready-made kurta, mandarin collar",
+    "prompt": "Ready-made kurta, mandarin collar. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 30,
+    "save_to": "public/images/products/menswear/unstitched-kurta-fabric.webp",
+    "ratio": "4:5",
+    "alt": "Unstitched kurta fabric, 2.5 m",
+    "prompt": "Unstitched kurta fabric, 2.5 m. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 31,
+    "save_to": "public/images/products/menswear/punjabi-style-pajama.webp",
+    "ratio": "4:5",
+    "alt": "Punjabi-style pajama",
+    "prompt": "Punjabi-style pajama. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 32,
+    "save_to": "public/images/products/phulkari/phulkari-dupatta-maroon.webp",
+    "ratio": "4:5",
+    "alt": "Hand-embroidered Phulkari dupatta, deep maroon",
+    "prompt": "Hand-embroidered Phulkari dupatta, deep maroon. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 33,
+    "save_to": "public/images/products/phulkari/phulkari-bagh-stole.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari bagh stole, ivory base",
+    "prompt": "Phulkari bagh stole, ivory base. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 34,
+    "save_to": "public/images/products/phulkari/phulkari-shawl-heavy.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari shawl, dense work",
+    "prompt": "Phulkari shawl, dense work. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 35,
+    "save_to": "public/images/products/phulkari/phulkari-stole-light.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari stole, light work",
+    "prompt": "Phulkari stole, light work. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 36,
+    "save_to": "public/images/products/phulkari/phulkari-suit-material.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari suit material, unstitched",
+    "prompt": "Phulkari suit material, unstitched. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 37,
+    "save_to": "public/images/products/phulkari/phulkari-unstitched-fabric.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari unstitched fabric, per metre",
+    "prompt": "Phulkari unstitched fabric, per metre. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 38,
+    "save_to": "public/images/products/phulkari/phulkari-potli-pair.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari potli, pair",
+    "prompt": "Phulkari potli, pair. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 39,
+    "save_to": "public/images/products/phulkari/phulkari-tote-bag.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari tote bag",
+    "prompt": "Phulkari tote bag. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 40,
+    "save_to": "public/images/products/phulkari/phulkari-cushion-cover.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari cushion cover, set of two",
+    "prompt": "Phulkari cushion cover, set of two. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 41,
+    "save_to": "public/images/products/juttis/punjabi-jutti-zari-cream.webp",
+    "ratio": "4:5",
+    "alt": "Punjabi jutti with zari work, cream",
+    "prompt": "Punjabi jutti with zari work, cream. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 42,
+    "save_to": "public/images/products/juttis/mens-jutti-tilla.webp",
+    "ratio": "4:5",
+    "alt": "Men’s tilla jutti, oxblood",
+    "prompt": "Men’s tilla jutti, oxblood. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 43,
+    "save_to": "public/images/products/juttis/bridal-jutti-tilla-gold.webp",
+    "ratio": "4:5",
+    "alt": "Bridal jutti, heavy tilla gold",
+    "prompt": "Bridal jutti, heavy tilla gold. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 44,
+    "save_to": "public/images/products/juttis/phulkari-jutti-women.webp",
+    "ratio": "4:5",
+    "alt": "Phulkari jutti, hand embroidered",
+    "prompt": "Phulkari jutti, hand embroidered. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 45,
+    "save_to": "public/images/products/juttis/cotton-jutti-everyday.webp",
+    "ratio": "4:5",
+    "alt": "Cotton jutti, everyday",
+    "prompt": "Cotton jutti, everyday. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 46,
+    "save_to": "public/images/products/juttis/leather-mojari-tan.webp",
+    "ratio": "4:5",
+    "alt": "Leather mojari, tan",
+    "prompt": "Leather mojari, tan. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 47,
+    "save_to": "public/images/products/juttis/khussa-embroidered.webp",
+    "ratio": "4:5",
+    "alt": "Khussa, embroidered vamp",
+    "prompt": "Khussa, embroidered vamp. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 48,
+    "save_to": "public/images/products/juttis/party-wear-jutti.webp",
+    "ratio": "4:5",
+    "alt": "Party wear jutti, sequinned",
+    "prompt": "Party wear jutti, sequinned. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 49,
+    "save_to": "public/images/products/juttis/kids-jutti-pair.webp",
+    "ratio": "4:5",
+    "alt": "Kids jutti, embroidered",
+    "prompt": "Kids jutti, embroidered. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 50,
+    "save_to": "public/images/products/jewellery/oxidised-silver-jhumka.webp",
+    "ratio": "4:5",
+    "alt": "Oxidised silver jhumka, temple motif",
+    "prompt": "Oxidised silver jhumka, temple motif. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 51,
+    "save_to": "public/images/products/jewellery/steel-kada-classic.webp",
+    "ratio": "4:5",
+    "alt": "Classic steel kada, polished",
+    "prompt": "Classic steel kada, polished. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 52,
+    "save_to": "public/images/products/jewellery/kundan-necklace-set.webp",
+    "ratio": "4:5",
+    "alt": "Kundan necklace set, bridal",
+    "prompt": "Kundan necklace set, bridal. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 53,
+    "save_to": "public/images/products/jewellery/paranda-silk-tassel.webp",
+    "ratio": "4:5",
+    "alt": "Paranda, silk tassel",
+    "prompt": "Paranda, silk tassel. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 54,
+    "save_to": "public/images/products/jewellery/kalire-pair-gold.webp",
+    "ratio": "4:5",
+    "alt": "Kalire, pair",
+    "prompt": "Kalire, pair. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 55,
+    "save_to": "public/images/products/jewellery/oxidised-bangles-set.webp",
+    "ratio": "4:5",
+    "alt": "Oxidised bangles, set of eight",
+    "prompt": "Oxidised bangles, set of eight. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 56,
+    "save_to": "public/images/products/jewellery/traditional-necklace-silver.webp",
+    "ratio": "4:5",
+    "alt": "Traditional silver necklace",
+    "prompt": "Traditional silver necklace. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 57,
+    "save_to": "public/images/products/jewellery/hair-accessory-set.webp",
+    "ratio": "4:5",
+    "alt": "Hair accessory set, traditional",
+    "prompt": "Hair accessory set, traditional. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 58,
+    "save_to": "public/images/products/jewellery/embroidered-potli-pair.webp",
+    "ratio": "4:5",
+    "alt": "Embroidered potli bag, set of two",
+    "prompt": "Embroidered potli bag, set of two. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 59,
+    "save_to": "public/images/products/jewellery/silk-clutch-bridal.webp",
+    "ratio": "4:5",
+    "alt": "Silk clutch, bridal",
+    "prompt": "Silk clutch, bridal. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 60,
+    "save_to": "public/images/products/jewellery/coin-bag-shagun.webp",
+    "ratio": "4:5",
+    "alt": "Coin bag for shagun, pack of ten",
+    "prompt": "Coin bag for shagun, pack of ten. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 61,
+    "save_to": "public/images/products/jewellery/traditional-jhola-bag.webp",
+    "ratio": "4:5",
+    "alt": "Traditional jhola bag",
+    "prompt": "Traditional jhola bag. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 62,
+    "save_to": "public/images/products/wedding/roka-tray-brass.webp",
+    "ratio": "4:5",
+    "alt": "Roka tray, hand-finished brass",
+    "prompt": "Roka tray, hand-finished brass. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 63,
+    "save_to": "public/images/products/wedding/shagun-thaal-brass.webp",
+    "ratio": "4:5",
+    "alt": "Brass shagun thaal set",
+    "prompt": "Brass shagun thaal set. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 64,
+    "save_to": "public/images/products/wedding/tikka-thaal-haldi.webp",
+    "ratio": "4:5",
+    "alt": "Tikka thaal for haldi",
+    "prompt": "Tikka thaal for haldi. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 65,
+    "save_to": "public/images/products/wedding/chura-thaal-decorated.webp",
+    "ratio": "4:5",
+    "alt": "Chura thaal, decorated",
+    "prompt": "Chura thaal, decorated. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 66,
+    "save_to": "public/images/products/wedding/decorative-tray-set.webp",
+    "ratio": "4:5",
+    "alt": "Decorative tray, set of three",
+    "prompt": "Decorative tray, set of three. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 67,
+    "save_to": "public/images/products/wedding/shagun-envelopes-pack.webp",
+    "ratio": "4:5",
+    "alt": "Shagun envelopes, pack of twenty",
+    "prompt": "Shagun envelopes, pack of twenty. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 68,
+    "save_to": "public/images/products/wedding/chura-box-velvet.webp",
+    "ratio": "4:5",
+    "alt": "Chura box, velvet lined",
+    "prompt": "Chura box, velvet lined. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 69,
+    "save_to": "public/images/products/wedding/jewellery-presentation-box.webp",
+    "ratio": "4:5",
+    "alt": "Jewellery presentation box",
+    "prompt": "Jewellery presentation box. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 70,
+    "save_to": "public/images/products/wedding/kada-box-single.webp",
+    "ratio": "4:5",
+    "alt": "Kada box, single",
+    "prompt": "Kada box, single. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 71,
+    "save_to": "public/images/products/wedding/ring-box-velvet.webp",
+    "ratio": "4:5",
+    "alt": "Ring box, velvet",
+    "prompt": "Ring box, velvet. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 72,
+    "save_to": "public/images/products/wedding/bhaji-box-set.webp",
+    "ratio": "4:5",
+    "alt": "Ladoo / bhaji box, set of ten",
+    "prompt": "Ladoo / bhaji box, set of ten. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 73,
+    "save_to": "public/images/products/wedding/cash-gift-box.webp",
+    "ratio": "4:5",
+    "alt": "Cash gift box, decorated",
+    "prompt": "Cash gift box, decorated. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 74,
+    "save_to": "public/images/products/wedding/roka-ceremony-set.webp",
+    "ratio": "4:5",
+    "alt": "Roka ceremony set, complete",
+    "prompt": "Roka ceremony set, complete. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 75,
+    "save_to": "public/images/products/wedding/sahe-chithi-set.webp",
+    "ratio": "4:5",
+    "alt": "Sahe Chithi ceremony set",
+    "prompt": "Sahe Chithi ceremony set. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 76,
+    "save_to": "public/images/products/wedding/haldi-ceremony-set.webp",
+    "ratio": "4:5",
+    "alt": "Haldi ceremony set",
+    "prompt": "Haldi ceremony set. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 77,
+    "save_to": "public/images/products/wedding/mehendi-ceremony-set.webp",
+    "ratio": "4:5",
+    "alt": "Mehendi ceremony accessories set",
+    "prompt": "Mehendi ceremony accessories set. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 78,
+    "save_to": "public/images/products/wedding/chura-ceremony-set.webp",
+    "ratio": "4:5",
+    "alt": "Chura ceremony set",
+    "prompt": "Chura ceremony set. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 79,
+    "save_to": "public/images/products/wedding/jaggo-set-complete.webp",
+    "ratio": "4:5",
+    "alt": "Jaggo set with chajj and stick",
+    "prompt": "Jaggo set with chajj and stick. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 80,
+    "save_to": "public/images/products/wedding/chajj-stick-pair.webp",
+    "ratio": "4:5",
+    "alt": "Chajj and stick, decorated",
+    "prompt": "Chajj and stick, decorated. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 81,
+    "save_to": "public/images/products/wedding/peedi-fatti-set.webp",
+    "ratio": "4:5",
+    "alt": "Peedi and fatti, ceremony seating",
+    "prompt": "Peedi and fatti, ceremony seating. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 82,
+    "save_to": "public/images/products/wedding/trousseau-trunk-large.webp",
+    "ratio": "4:5",
+    "alt": "Trousseau trunk, hand-painted",
+    "prompt": "Trousseau trunk, hand-painted. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 83,
+    "save_to": "public/images/products/wedding/wedding-favours-pack.webp",
+    "ratio": "4:5",
+    "alt": "Wedding favours, pack of twenty-five",
+    "prompt": "Wedding favours, pack of twenty-five. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 84,
+    "save_to": "public/images/products/wedding/suit-saree-covers-set.webp",
+    "ratio": "4:5",
+    "alt": "Suit and saree covers, set of six",
+    "prompt": "Suit and saree covers, set of six. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 85,
+    "save_to": "public/images/products/wedding/bridal-gift-basket.webp",
+    "ratio": "4:5",
+    "alt": "Bridal gift basket, assembled",
+    "prompt": "Bridal gift basket, assembled. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 86,
+    "save_to": "public/images/products/wedding/rumala-sahib-set.webp",
+    "ratio": "4:5",
+    "alt": "Rumala Sahib, cotton set",
+    "prompt": "Rumala Sahib, cotton set. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 87,
+    "save_to": "public/images/products/gifting/car-hanging-ik-onkar.webp",
+    "ratio": "4:5",
+    "alt": "Brass car hanging, Ik Onkar",
+    "prompt": "Brass car hanging, Ik Onkar. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 88,
+    "save_to": "public/images/products/gifting/punjabi-typography-print.webp",
+    "ratio": "4:5",
+    "alt": "Punjabi typography print, framed",
+    "prompt": "Punjabi typography print, framed. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 89,
+    "save_to": "public/images/products/gifting/phulkari-cushion-pair-home.webp",
+    "ratio": "4:5",
+    "alt": "Cushion covers, phulkari motif",
+    "prompt": "Cushion covers, phulkari motif. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 90,
+    "save_to": "public/images/products/gifting/punjabi-mug-pair.webp",
+    "ratio": "4:5",
+    "alt": "Punjabi typography mug, pair",
+    "prompt": "Punjabi typography mug, pair. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 91,
+    "save_to": "public/images/products/gifting/lohri-gift-hamper.webp",
+    "ratio": "4:5",
+    "alt": "Lohri gift hamper",
+    "prompt": "Lohri gift hamper. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 92,
+    "save_to": "public/images/products/gifting/punjabi-tshirt-graphic.webp",
+    "ratio": "4:5",
+    "alt": "Punjabi graphic T-shirt",
+    "prompt": "Punjabi graphic T-shirt. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 93,
+    "save_to": "public/images/products/gifting/personalised-keychain.webp",
+    "ratio": "4:5",
+    "alt": "Personalised name keychain",
+    "prompt": "Personalised name keychain. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 94,
+    "save_to": "public/images/products/pantry/desi-cow-ghee-500ml.webp",
+    "ratio": "1:1",
+    "alt": "Pure desi cow ghee",
+    "prompt": "Pure desi cow ghee. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 95,
+    "save_to": "public/images/products/pantry/mustard-oil-1l.webp",
+    "ratio": "1:1",
+    "alt": "Cold-pressed mustard oil",
+    "prompt": "Cold-pressed mustard oil. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 96,
+    "save_to": "public/images/products/pantry/mango-pickle-400g.webp",
+    "ratio": "1:1",
+    "alt": "Homemade mango pickle",
+    "prompt": "Homemade mango pickle. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 97,
+    "save_to": "public/images/products/pantry/amritsari-papad-250g.webp",
+    "ratio": "1:1",
+    "alt": "Amritsari papad",
+    "prompt": "Amritsari papad. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 98,
+    "save_to": "public/images/products/pantry/garam-masala-100g.webp",
+    "ratio": "1:1",
+    "alt": "Punjabi garam masala",
+    "prompt": "Punjabi garam masala. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 99,
+    "save_to": "public/images/products/pantry/roasted-makhana-200g.webp",
+    "ratio": "1:1",
+    "alt": "Roasted makhana",
+    "prompt": "Roasted makhana. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 100,
+    "save_to": "public/images/categories/turbans.webp",
+    "ratio": "1:1",
+    "alt": "Turbans category",
+    "prompt": "Category tile for Turbans. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 101,
+    "save_to": "public/images/categories/patka.webp",
+    "ratio": "1:1",
+    "alt": "Patka category",
+    "prompt": "Category tile for Patka. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 102,
+    "save_to": "public/images/categories/headwear.webp",
+    "ratio": "1:1",
+    "alt": "Headwear category",
+    "prompt": "Category tile for Headwear. Neatly folded turban cloth showing the weave, layered folds and true fabric colour. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 103,
+    "save_to": "public/images/categories/turban-accessories.webp",
+    "ratio": "1:1",
+    "alt": "Turban Accessories category",
+    "prompt": "Category tile for Turban Accessories. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 104,
+    "save_to": "public/images/categories/kurta-pajama.webp",
+    "ratio": "1:1",
+    "alt": "Kurta Pajama category",
+    "prompt": "Category tile for Kurta Pajama. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 105,
+    "save_to": "public/images/categories/kurta.webp",
+    "ratio": "1:1",
+    "alt": "Kurta category",
+    "prompt": "Category tile for Kurta. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 106,
+    "save_to": "public/images/categories/pajama.webp",
+    "ratio": "1:1",
+    "alt": "Pajama category",
+    "prompt": "Category tile for Pajama. Clean garment product photography, fabric drape and stitching visible, flat-lay or invisible-mannequin. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 107,
+    "save_to": "public/images/categories/phulkari.webp",
+    "ratio": "1:1",
+    "alt": "Phulkari category",
+    "prompt": "Category tile for Phulkari. Authentic Punjabi phulkari floss-silk darning embroidery, geometric pattern, thread sheen and khaddar base clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 108,
+    "save_to": "public/images/categories/jutti.webp",
+    "ratio": "1:1",
+    "alt": "Punjabi Jutti category",
+    "prompt": "Category tile for Punjabi Jutti. A pair of handcrafted Punjabi juttis, characteristic flat sole and upturned toe, leather or fabric texture and embroidery clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 109,
+    "save_to": "public/images/categories/jewellery.webp",
+    "ratio": "1:1",
+    "alt": "Jewellery category",
+    "prompt": "Category tile for Jewellery. Traditional Punjabi jewellery photographed like premium fashion commerce, fine metalwork and antiqued detail visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 110,
+    "save_to": "public/images/categories/bags.webp",
+    "ratio": "1:1",
+    "alt": "Bags & Potli category",
+    "prompt": "Category tile for Bags & Potli. Small accessory shot in macro detail on a warm neutral surface, materials and finish clearly visible. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 111,
+    "save_to": "public/images/categories/ceremony-trays.webp",
+    "ratio": "1:1",
+    "alt": "Trays & Thaal category",
+    "prompt": "Category tile for Trays & Thaal. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 112,
+    "save_to": "public/images/categories/ceremony-boxes.webp",
+    "ratio": "1:1",
+    "alt": "Boxes & Envelopes category",
+    "prompt": "Category tile for Boxes & Envelopes. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 113,
+    "save_to": "public/images/categories/ceremony-sets.webp",
+    "ratio": "1:1",
+    "alt": "Ceremony Sets category",
+    "prompt": "Category tile for Ceremony Sets. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 114,
+    "save_to": "public/images/categories/wedding-gifting.webp",
+    "ratio": "1:1",
+    "alt": "Wedding Gifting category",
+    "prompt": "Category tile for Wedding Gifting. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 115,
+    "save_to": "public/images/categories/sikh-religious.webp",
+    "ratio": "1:1",
+    "alt": "Sikh Religious category",
+    "prompt": "Category tile for Sikh Religious. Premium Indian wedding ceremony object, elegant neutral styling, restrained and tasteful — not festive clutter. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 116,
+    "save_to": "public/images/categories/home-decor.webp",
+    "ratio": "1:1",
+    "alt": "Home Decor category",
+    "prompt": "Category tile for Home Decor. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 117,
+    "save_to": "public/images/categories/gifts.webp",
+    "ratio": "1:1",
+    "alt": "Gifts category",
+    "prompt": "Category tile for Gifts. Punjabi-inspired home or gifting object, real product photography, warm neutral styling. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Square 1:1."
+  },
+  {
+    "n": 118,
+    "save_to": "public/images/categories/pantry.webp",
+    "ratio": "1:1",
+    "alt": "Pantry category",
+    "prompt": "Category tile for Pantry. Food product in simple packaging. Clean packshot on a white-to-warm-neutral gradient, even soft studio light, realistic packaging with a MINIMAL UNBRANDED label — no brand name, no certification marks, no regulatory symbols, no text claims. Square 1:1, centred, catalogue style."
+  },
+  {
+    "n": 119,
+    "save_to": "public/images/ceremonies/roka.webp",
+    "ratio": "4:5",
+    "alt": "roka ceremony",
+    "prompt": "Premium still life representing the Punjabi roka ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 120,
+    "save_to": "public/images/ceremonies/shagun.webp",
+    "ratio": "4:5",
+    "alt": "shagun ceremony",
+    "prompt": "Premium still life representing the Punjabi shagun ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 121,
+    "save_to": "public/images/ceremonies/sahe-chithi.webp",
+    "ratio": "4:5",
+    "alt": "sahe chithi ceremony",
+    "prompt": "Premium still life representing the Punjabi sahe chithi ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 122,
+    "save_to": "public/images/ceremonies/haldi.webp",
+    "ratio": "4:5",
+    "alt": "haldi ceremony",
+    "prompt": "Premium still life representing the Punjabi haldi ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 123,
+    "save_to": "public/images/ceremonies/mehendi.webp",
+    "ratio": "4:5",
+    "alt": "mehendi ceremony",
+    "prompt": "Premium still life representing the Punjabi mehendi ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 124,
+    "save_to": "public/images/ceremonies/sangeet.webp",
+    "ratio": "4:5",
+    "alt": "sangeet ceremony",
+    "prompt": "Premium still life representing the Punjabi sangeet ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 125,
+    "save_to": "public/images/ceremonies/jaggo.webp",
+    "ratio": "4:5",
+    "alt": "jaggo ceremony",
+    "prompt": "Premium still life representing the Punjabi jaggo ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 126,
+    "save_to": "public/images/ceremonies/chura.webp",
+    "ratio": "4:5",
+    "alt": "chura ceremony",
+    "prompt": "Premium still life representing the Punjabi chura ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 127,
+    "save_to": "public/images/ceremonies/wedding.webp",
+    "ratio": "4:5",
+    "alt": "wedding ceremony",
+    "prompt": "Premium still life representing the Punjabi wedding ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 128,
+    "save_to": "public/images/ceremonies/wedding-favours.webp",
+    "ratio": "4:5",
+    "alt": "wedding favours ceremony",
+    "prompt": "Premium still life representing the Punjabi wedding favours ceremony — its characteristic trays, boxes or ceremony objects arranged with generous space. Warm neutral seamless studio background, soft diffused natural light from the left, realistic material texture, product centred with generous margin, shallow depth of field, true-to-colour, premium Indian e-commerce catalogue photography. No text, no logos, no watermark, no hands, no model, no background motifs. Portrait 4:5."
+  },
+  {
+    "n": 129,
+    "save_to": "public/images/sellers/s1.webp",
+    "ratio": "16:9",
+    "alt": "Sardar Pagri House shop interior in Amritsar",
+    "prompt": "Documentary photograph of a small traditional Indian shop interior in Amritsar specialising in turbans, patkas and dastaar accessories, stock stacked on shelves, natural daylight from the shopfront, warm and lived-in, no people, no readable signage. Landscape 16:9."
+  },
+  {
+    "n": 130,
+    "save_to": "public/images/sellers/s2.webp",
+    "ratio": "16:9",
+    "alt": "Nazaqat Suits shop interior in Amritsar",
+    "prompt": "Documentary photograph of a small traditional Indian shop interior in Amritsar specialising in phulkari, suits and bridal wear, stock stacked on shelves, natural daylight from the shopfront, warm and lived-in, no people, no readable signage. Landscape 16:9."
+  },
+  {
+    "n": 131,
+    "save_to": "public/images/sellers/s3.webp",
+    "ratio": "16:9",
+    "alt": "Patiala Jutti Works shop interior in Patiala",
+    "prompt": "Documentary photograph of a small traditional Indian shop interior in Patiala specialising in hand-stitched juttis and mojaris, stock stacked on shelves, natural daylight from the shopfront, warm and lived-in, no people, no readable signage. Landscape 16:9."
+  },
+  {
+    "n": 132,
+    "save_to": "public/images/sellers/s4.webp",
+    "ratio": "16:9",
+    "alt": "Rasam Ceremony Co. shop interior in Ludhiana",
+    "prompt": "Documentary photograph of a small traditional Indian shop interior in Ludhiana specialising in wedding trays, boxes and ceremony sets, stock stacked on shelves, natural daylight from the shopfront, warm and lived-in, no people, no readable signage. Landscape 16:9."
+  },
+  {
+    "n": 133,
+    "save_to": "public/images/editorial/hero-composition.webp",
+    "ratio": "16:9",
+    "alt": "Editorial arrangement of a phulkari dupatta, folded turban cloth, juttis and silver jewellery",
+    "prompt": "Premium editorial still life bringing together Punjabi craft: a folded phulkari dupatta with silk embroidery, a neatly folded turban cloth, a pair of embroidered juttis and oxidised silver jhumkas, arranged with generous negative space on a warm neutral surface, soft natural side light, shallow depth of field. Calm and premium, not festive. No text, no logos, no decorative motifs. Landscape 16:9."
+  }
+]

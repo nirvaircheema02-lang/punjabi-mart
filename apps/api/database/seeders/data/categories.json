@@ -1,0 +1,660 @@
+[
+  {
+    "slug": "turbans",
+    "name": "Turbans",
+    "group": "turban",
+    "art": "turbans",
+    "kind": "lifestyle",
+    "blurb": "Voile, rubia and malmal, cut to the length you tie.",
+    "children": [
+      {
+        "slug": "full-voile",
+        "name": "Full Voile"
+      },
+      {
+        "slug": "rubia-voile",
+        "name": "Rubia Voile"
+      },
+      {
+        "slug": "dumala",
+        "name": "Dumala"
+      },
+      {
+        "slug": "malmal",
+        "name": "Malmal"
+      },
+      {
+        "slug": "f74",
+        "name": "F-74 Lightweight"
+      },
+      {
+        "slug": "parna",
+        "name": "Parna"
+      },
+      {
+        "slug": "keski",
+        "name": "Keski"
+      },
+      {
+        "slug": "ready-to-wear",
+        "name": "Ready to Wear"
+      },
+      {
+        "slug": "kids-turban",
+        "name": "Kids Turban"
+      }
+    ]
+  },
+  {
+    "slug": "patka",
+    "name": "Patka",
+    "group": "turban",
+    "art": "turbans",
+    "kind": "lifestyle",
+    "blurb": "Two tani, four tani, printed and plain.",
+    "children": [
+      {
+        "slug": "2-tani",
+        "name": "2 Tani"
+      },
+      {
+        "slug": "4-tani",
+        "name": "4 Tani"
+      },
+      {
+        "slug": "kids-patka",
+        "name": "Kids Patka"
+      },
+      {
+        "slug": "adult-patka",
+        "name": "Adult Patka"
+      },
+      {
+        "slug": "printed-patka",
+        "name": "Printed Patka"
+      },
+      {
+        "slug": "plain-patka",
+        "name": "Plain Patka"
+      }
+    ]
+  },
+  {
+    "slug": "headwear",
+    "name": "Headwear",
+    "group": "turban",
+    "art": "turbans",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "bandana",
+        "name": "Bandana"
+      },
+      {
+        "slug": "fifti",
+        "name": "Fifti"
+      },
+      {
+        "slug": "stocking-cap",
+        "name": "Stocking Cap"
+      },
+      {
+        "slug": "tube-headwear",
+        "name": "Tube Headwear"
+      },
+      {
+        "slug": "keski-accessories",
+        "name": "Keski Accessories"
+      }
+    ]
+  },
+  {
+    "slug": "turban-accessories",
+    "name": "Turban Accessories",
+    "group": "turban",
+    "art": "accessories",
+    "kind": "lifestyle",
+    "blurb": "Baaz, salayi, pins and everything that holds a pagg.",
+    "children": [
+      {
+        "slug": "baaz-salayi",
+        "name": "Baaz / Salayi"
+      },
+      {
+        "slug": "pen-baaz",
+        "name": "Pen Baaz"
+      },
+      {
+        "slug": "turban-brush",
+        "name": "Turban Brush"
+      },
+      {
+        "slug": "pagg-pins",
+        "name": "Pagg Pins"
+      },
+      {
+        "slug": "thatha",
+        "name": "Thatha"
+      },
+      {
+        "slug": "accessory-kit",
+        "name": "Accessory Kit"
+      },
+      {
+        "slug": "turban-storage",
+        "name": "Storage"
+      }
+    ]
+  },
+  {
+    "slug": "kurta-pajama",
+    "name": "Kurta Pajama",
+    "group": "men",
+    "art": "menswear",
+    "kind": "lifestyle",
+    "blurb": "Cotton and linen sets, plain through to wedding.",
+    "children": [
+      {
+        "slug": "cotton",
+        "name": "Cotton"
+      },
+      {
+        "slug": "linen",
+        "name": "Linen"
+      },
+      {
+        "slug": "festive",
+        "name": "Festive"
+      },
+      {
+        "slug": "wedding-kp",
+        "name": "Wedding"
+      },
+      {
+        "slug": "casual",
+        "name": "Casual"
+      },
+      {
+        "slug": "plain",
+        "name": "Plain"
+      },
+      {
+        "slug": "embroidered",
+        "name": "Embroidered"
+      }
+    ]
+  },
+  {
+    "slug": "kurta",
+    "name": "Kurta",
+    "group": "men",
+    "art": "menswear",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "ready-made",
+        "name": "Ready-made"
+      },
+      {
+        "slug": "unstitched",
+        "name": "Unstitched"
+      }
+    ]
+  },
+  {
+    "slug": "pajama",
+    "name": "Pajama",
+    "group": "men",
+    "art": "menswear",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "standard",
+        "name": "Standard"
+      },
+      {
+        "slug": "punjabi-style",
+        "name": "Punjabi Style"
+      }
+    ]
+  },
+  {
+    "slug": "phulkari",
+    "name": "Phulkari",
+    "group": "craft",
+    "art": "phulkari",
+    "kind": "lifestyle",
+    "blurb": "Floss-silk darning embroidery from Punjab’s own clusters.",
+    "children": [
+      {
+        "slug": "dupatta",
+        "name": "Dupatta"
+      },
+      {
+        "slug": "stole",
+        "name": "Stole"
+      },
+      {
+        "slug": "shawl",
+        "name": "Shawl"
+      },
+      {
+        "slug": "bagh",
+        "name": "Bagh Phulkari"
+      },
+      {
+        "slug": "unstitched-fabric",
+        "name": "Unstitched Fabric"
+      },
+      {
+        "slug": "suit-material",
+        "name": "Suit Material"
+      },
+      {
+        "slug": "phulkari-home",
+        "name": "Home Decor"
+      },
+      {
+        "slug": "phulkari-bags",
+        "name": "Bags"
+      },
+      {
+        "slug": "phulkari-potli",
+        "name": "Potli"
+      },
+      {
+        "slug": "phulkari-accessories",
+        "name": "Accessories"
+      }
+    ]
+  },
+  {
+    "slug": "jutti",
+    "name": "Punjabi Jutti",
+    "group": "jutti",
+    "art": "juttis",
+    "kind": "lifestyle",
+    "blurb": "Hand-stitched, from everyday cotton to bridal tilla.",
+    "children": [
+      {
+        "slug": "women",
+        "name": "Women"
+      },
+      {
+        "slug": "men",
+        "name": "Men"
+      },
+      {
+        "slug": "bridal",
+        "name": "Bridal"
+      },
+      {
+        "slug": "party-wear",
+        "name": "Party Wear"
+      },
+      {
+        "slug": "cotton-jutti",
+        "name": "Cotton"
+      },
+      {
+        "slug": "leather",
+        "name": "Leather"
+      },
+      {
+        "slug": "embroidered-jutti",
+        "name": "Embroidered"
+      },
+      {
+        "slug": "phulkari-jutti",
+        "name": "Phulkari Jutti"
+      },
+      {
+        "slug": "mojari",
+        "name": "Mojari"
+      },
+      {
+        "slug": "khussa",
+        "name": "Khussa"
+      },
+      {
+        "slug": "loafers",
+        "name": "Loafers"
+      },
+      {
+        "slug": "kids-jutti",
+        "name": "Kids"
+      }
+    ]
+  },
+  {
+    "slug": "jewellery",
+    "name": "Jewellery",
+    "group": "gifting",
+    "art": "jewellery",
+    "kind": "lifestyle",
+    "blurb": "Jhumkas, kundan, kadas and parandas.",
+    "children": [
+      {
+        "slug": "jhumka",
+        "name": "Jhumka"
+      },
+      {
+        "slug": "punjabi-jewellery",
+        "name": "Punjabi Jewellery"
+      },
+      {
+        "slug": "kundan",
+        "name": "Kundan"
+      },
+      {
+        "slug": "necklaces",
+        "name": "Necklaces"
+      },
+      {
+        "slug": "kada",
+        "name": "Kada"
+      },
+      {
+        "slug": "bangles",
+        "name": "Bangles"
+      },
+      {
+        "slug": "hair-accessories",
+        "name": "Hair Accessories"
+      },
+      {
+        "slug": "paranda",
+        "name": "Paranda"
+      },
+      {
+        "slug": "kalire",
+        "name": "Kalire"
+      }
+    ]
+  },
+  {
+    "slug": "bags",
+    "name": "Bags & Potli",
+    "group": "gifting",
+    "art": "accessories",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "potli",
+        "name": "Potli"
+      },
+      {
+        "slug": "clutch",
+        "name": "Clutch"
+      },
+      {
+        "slug": "purse",
+        "name": "Purse"
+      },
+      {
+        "slug": "coin-bag",
+        "name": "Coin Bag"
+      },
+      {
+        "slug": "traditional-bags",
+        "name": "Traditional Bags"
+      }
+    ]
+  },
+  {
+    "slug": "ceremony-trays",
+    "name": "Trays & Thaal",
+    "group": "wedding",
+    "art": "wedding",
+    "kind": "lifestyle",
+    "blurb": "Roka, shagun, tikka and chura thaals.",
+    "children": [
+      {
+        "slug": "roka-tray",
+        "name": "Roka Tray"
+      },
+      {
+        "slug": "shagun-thaal",
+        "name": "Shagun Thaal"
+      },
+      {
+        "slug": "tikka-thaal",
+        "name": "Tikka Thaal"
+      },
+      {
+        "slug": "chura-thaal",
+        "name": "Chura Thaal"
+      },
+      {
+        "slug": "decorative-tray",
+        "name": "Decorative Tray"
+      }
+    ]
+  },
+  {
+    "slug": "ceremony-boxes",
+    "name": "Boxes & Envelopes",
+    "group": "wedding",
+    "art": "wedding",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "shagun-envelope",
+        "name": "Shagun Envelopes"
+      },
+      {
+        "slug": "jewellery-box",
+        "name": "Jewellery Box"
+      },
+      {
+        "slug": "kada-box",
+        "name": "Kada Box"
+      },
+      {
+        "slug": "chain-box",
+        "name": "Chain Box"
+      },
+      {
+        "slug": "ring-box",
+        "name": "Ring Box"
+      },
+      {
+        "slug": "chura-box",
+        "name": "Chura Box"
+      },
+      {
+        "slug": "bhaji-box",
+        "name": "Ladoo / Bhaji Box"
+      },
+      {
+        "slug": "cash-box",
+        "name": "Cash Gift Box"
+      }
+    ]
+  },
+  {
+    "slug": "ceremony-sets",
+    "name": "Ceremony Sets",
+    "group": "wedding",
+    "art": "wedding",
+    "kind": "lifestyle",
+    "blurb": "Complete sets for each rasam.",
+    "children": [
+      {
+        "slug": "roka-set",
+        "name": "Roka Set"
+      },
+      {
+        "slug": "sahe-chithi-set",
+        "name": "Sahe Chithi Set"
+      },
+      {
+        "slug": "haldi-set",
+        "name": "Haldi Set"
+      },
+      {
+        "slug": "mehendi-set",
+        "name": "Mehendi Set"
+      },
+      {
+        "slug": "chura-set",
+        "name": "Chura Set"
+      },
+      {
+        "slug": "jaggo-set",
+        "name": "Jaggo Set"
+      },
+      {
+        "slug": "chajj-stick",
+        "name": "Chajj & Stick"
+      },
+      {
+        "slug": "peedi-fatti",
+        "name": "Peedi & Fatti"
+      }
+    ]
+  },
+  {
+    "slug": "wedding-gifting",
+    "name": "Wedding Gifting",
+    "group": "wedding",
+    "art": "wedding",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "trousseau-trunk",
+        "name": "Trousseau Trunk"
+      },
+      {
+        "slug": "gift-basket",
+        "name": "Gift Basket"
+      },
+      {
+        "slug": "wedding-favours",
+        "name": "Wedding Favours"
+      },
+      {
+        "slug": "suit-saree-cover",
+        "name": "Suit & Saree Covers"
+      },
+      {
+        "slug": "bridal-gifting",
+        "name": "Bridal Gifting"
+      },
+      {
+        "slug": "gift-sets",
+        "name": "Gift Sets"
+      }
+    ]
+  },
+  {
+    "slug": "sikh-religious",
+    "name": "Sikh Religious",
+    "group": "wedding",
+    "art": "wedding",
+    "kind": "lifestyle",
+    "blurb": "Presented with reverence — kept separate from novelty gifting.",
+    "children": [
+      {
+        "slug": "rumala-sahib",
+        "name": "Rumala Sahib"
+      },
+      {
+        "slug": "religious-decor",
+        "name": "Religious Decor"
+      }
+    ]
+  },
+  {
+    "slug": "home-decor",
+    "name": "Home Decor",
+    "group": "home",
+    "art": "home",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "wall-decor",
+        "name": "Wall Decor"
+      },
+      {
+        "slug": "cushions",
+        "name": "Cushions"
+      },
+      {
+        "slug": "typography",
+        "name": "Punjabi Typography"
+      },
+      {
+        "slug": "car-hangings",
+        "name": "Car Hangings"
+      }
+    ]
+  },
+  {
+    "slug": "gifts",
+    "name": "Gifts",
+    "group": "home",
+    "art": "home",
+    "kind": "lifestyle",
+    "children": [
+      {
+        "slug": "mugs",
+        "name": "Mugs"
+      },
+      {
+        "slug": "keychains",
+        "name": "Keychains"
+      },
+      {
+        "slug": "personalised",
+        "name": "Personalised"
+      },
+      {
+        "slug": "festival-gifting",
+        "name": "Festival Gifting"
+      },
+      {
+        "slug": "lohri-gifting",
+        "name": "Lohri Gifting"
+      },
+      {
+        "slug": "tshirts",
+        "name": "Punjabi T-Shirts"
+      }
+    ]
+  },
+  {
+    "slug": "pantry",
+    "name": "Pantry",
+    "group": "pantry",
+    "art": "pantry",
+    "kind": "fmcg",
+    "blurb": "Structure in place; launches once food compliance is activated.",
+    "children": [
+      {
+        "slug": "ghee",
+        "name": "Ghee"
+      },
+      {
+        "slug": "oils",
+        "name": "Mustard Oil"
+      },
+      {
+        "slug": "pickles",
+        "name": "Pickles"
+      },
+      {
+        "slug": "papad",
+        "name": "Papad"
+      },
+      {
+        "slug": "spices",
+        "name": "Spices"
+      },
+      {
+        "slug": "snacks",
+        "name": "Dry Snacks"
+      }
+    ]
+  }
+]

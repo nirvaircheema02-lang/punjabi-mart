@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PunjabiMarts Design System V1</title>
+<link rel="stylesheet" href="../src/styles/tokens.css">
+<link rel="stylesheet" href="../src/styles/base.css">
+<link rel="stylesheet" href="../src/styles/components.css">
+<style>
+  body { background: var(--surface-subtle); }
+  .sec { padding-block: var(--space-10); border-bottom: 1px solid var(--border-subtle); }
+  .sec__head { margin-bottom: var(--space-6); }
+  .row { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; }
+  .stack { display: flex; flex-direction: column; gap: var(--space-4); }
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: var(--space-2); }
+  .sw { border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .sw__chip { height: 56px; }
+  .sw__label { padding: var(--space-1) var(--space-2); background: var(--surface-page); font-size: var(--text-caption); color: var(--ink-muted); }
+  .panel { background: var(--surface-page); border: 1px solid var(--border-subtle); border-radius: var(--radius-card); padding: var(--space-6); }
+  .note { font-size: var(--text-small); color: var(--ink-muted); margin-top: var(--space-2); }
+  .ph { position: absolute; inset: 0; display: grid; place-items: center; background: var(--surface-brand-subtle); color: var(--ink-brand); font-size: var(--text-caption); }
+</style>
+</head>
+<body>
+<div class="pm-container">
+
+  <header class="sec">
+    <p class="pm-small pm-ink-muted">PunjabiMarts brand system</p>
+    <h1 class="pm-display">Petrol & Terracotta</h1>
+    <p class="pm-body-lg pm-ink-secondary" style="max-width:56ch;margin-top:var(--space-3)">
+      Local-first typography · craft-led · FMCG as controlled secondary vertical.
+      Every value below resolves through primitive → semantic → component tokens.
+    </p>
+  </header>
+
+  <!-- COLOR -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Color</h2>
+      <p class="note">Brand 600 is the action colour (≈10:1 on white, AAA). Interface stays ~75% neutral.</p></div>
+    <div class="stack">
+      <div>
+        <p class="pm-small pm-ink-muted" style="margin-bottom:var(--space-2)">Brand — petrol</p>
+        <div class="swatches" id="sw-petrol"></div>
+      </div>
+      <div>
+        <p class="pm-small pm-ink-muted" style="margin-bottom:var(--space-2)">Accent — terracotta (commerce moments only)</p>
+        <div class="swatches" id="sw-terracotta"></div>
+        <p class="note"><strong>Contrast rule:</strong> white on terracotta 500 clears AA for normal text; 700 is reserved for small terracotta text on light surfaces.</p>
+      </div>
+      <div>
+        <p class="pm-small pm-ink-muted" style="margin-bottom:var(--space-2)">Neutral — petrol-tinted, never pure grey or pure black</p>
+        <div class="swatches" id="sw-neutral"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPE -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Typography</h2>
+      <p class="note">Avenir Next with a system UI fallback across storefront, Seller Center and Admin. Hierarchy comes from weight and spacing.</p></div>
+    <div class="panel stack">
+      <div class="pm-display">Display 48/56</div>
+      <div class="pm-h1">Heading 1 — 40/48</div>
+      <div class="pm-h2">Heading 2 — 32/40</div>
+      <div class="pm-h3">Heading 3 — 24/32</div>
+      <div class="pm-h4">Heading 4 — 20/28</div>
+      <div class="pm-body-lg">Body Large 16/24 — storefront default</div>
+      <div class="pm-body">Body 14/20 — Seller Center &amp; Admin default</div>
+      <div class="pm-small pm-ink-muted">Small 13/18 — card metadata</div>
+      <div class="pm-caption pm-ink-muted">Caption 12/16 — floor, never smaller</div>
+    </div>
+  </section>
+
+  <!-- BUTTONS -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Buttons</h2><p class="note">Four variants, six states each. 44px standard / 48px prominent.</p></div>
+    <div class="panel stack">
+      <div class="row">
+        <button class="pm-btn pm-btn--primary">Primary</button>
+        <button class="pm-btn pm-btn--secondary">Secondary</button>
+        <button class="pm-btn pm-btn--tertiary">Tertiary</button>
+        <button class="pm-btn pm-btn--quickadd">Quick Add</button>
+      </div>
+      <div class="row">
+        <button class="pm-btn pm-btn--primary" disabled>Disabled</button>
+        <button class="pm-btn pm-btn--primary" data-loading="true">Loading</button>
+        <button class="pm-btn pm-btn--primary pm-btn--compact">Compact 36</button>
+        <button class="pm-btn pm-btn--primary pm-btn--prominent">Prominent 48</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADD CONTROL -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">AddControl — the keystone primitive</h2>
+      <p class="note">One component, one flag. <code>requiresVariant=false</code> morphs ADD→stepper via width transition.
+      <code>requiresVariant=true</code> routes to the variant sheet and never silently adds. All hit targets 44px.</p></div>
+    <div class="panel stack">
+      <div>
+        <p class="pm-small pm-ink-muted">requiresVariant = false — ghee, pickles, decor</p>
+        <div class="pm-add" data-add data-requires-variant="false" style="margin-top:var(--space-2)">
+          <button class="pm-add__btn" data-add-btn>ADD</button>
+          <div class="pm-add__stepper" data-add-stepper hidden>
+            <button class="pm-add__step" data-step="-1" aria-label="Decrease">−</button>
+            <span class="pm-add__count" data-count>1</span>
+            <button class="pm-add__step" data-step="1" aria-label="Increase">+</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="pm-small pm-ink-muted">requiresVariant = true — juttis, suits</p>
+        <div class="pm-add" data-add data-requires-variant="true" style="margin-top:var(--space-2)">
+          <button class="pm-add__btn" data-add-btn>Select Size</button>
+        </div>
+        <p class="note" data-variant-msg hidden>→ opens the size sheet (never adds silently)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE / RATING / BADGE -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Price, rating, badges</h2>
+      <p class="note">Three-tier price row. One badge maximum per card, plain language.</p></div>
+    <div class="panel stack">
+      <div class="pm-price pm-price--lg">
+        <span class="pm-price__current">₹2,450</span>
+        <span class="pm-price__mrp">₹3,200</span>
+        <span class="pm-price__off">23% off</span>
+      </div>
+      <div class="pm-rating"><span class="pm-rating__star">★</span> 4.6 <span class="pm-ink-muted">(128)</span></div>
+      <div class="row">
+        <span class="pm-badge">Handmade</span>
+        <span class="pm-badge pm-badge--accent">Only 2 left</span>
+        <span class="pm-badge pm-badge--success">Free delivery</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIZE CHIPS -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Size selection</h2>
+      <p class="note">52×52, radius 12, three visually distinct states. Unavailable uses an explicit disabled treatment — the "diagonal strikethrough" convention is unverified folklore, so we specify our own.</p></div>
+    <div class="panel">
+      <div class="pm-sizes">
+        <button class="pm-size">6</button>
+        <button class="pm-size" aria-pressed="true">7</button>
+        <button class="pm-size">8</button>
+        <button class="pm-size" disabled title="Out of stock">9</button>
+        <button class="pm-size">10</button>
+      </div>
+      <p class="note">Selected · unselected · unavailable (9 is out of stock)</p>
+    </div>
+  </section>
+
+  <!-- CARDS -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Product cards — one system, two variants</h2>
+      <p class="note">Lifestyle: 4:5, quick-add <strong>below</strong> the image so it never defaces the hero shot.
+      FMCG: 1:1, compact, pack size prominent, quick-add may overlay.</p></div>
+
+    <p class="pm-h4" style="margin-bottom:var(--space-3)">Lifestyle / craft — 2 mobile, 3 desktop</p>
+    <div class="pm-grid" id="grid-craft"></div>
+
+    <p class="pm-h4" style="margin:var(--space-8) 0 var(--space-3)">FMCG — denser grid</p>
+    <div class="pm-grid pm-grid--fmcg" id="grid-fmcg"></div>
+  </section>
+
+  <!-- DENSITY + EDITORIAL -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Variants — same tokens, different expression</h2>
+      <p class="note">Seller/Admin use <code>data-density="compact"</code>. Wedding/Shagun uses <code>data-variant="editorial"</code>. Neither is a second design system.</p></div>
+    <div class="stack">
+      <div class="panel" data-density="compact">
+        <p class="pm-small pm-ink-muted">data-density="compact" — Seller Center / Admin</p>
+        <div class="row" style="margin-top:var(--space-3)">
+          <button class="pm-btn pm-btn--primary">Save</button>
+          <button class="pm-btn pm-btn--secondary">Cancel</button>
+          <input class="pm-input" placeholder="Search orders">
+        </div>
+      </div>
+      <div class="panel" data-variant="editorial">
+        <p class="pm-small pm-ink-muted">data-variant="editorial" — Wedding / Shagun</p>
+        <h3 class="pm-h2" style="margin-top:var(--space-3)">The Shagun Collection</h3>
+        <p class="pm-body-lg pm-ink-secondary">Display faces swap to the serif. Colours and components are unchanged.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM + STATES -->
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Forms &amp; states</h2>
+      <p class="note">The helper/error slot is always reserved — validation text must never push layout (CLS &lt; 0.1).</p></div>
+    <div class="panel stack" style="max-width:420px">
+      <div class="pm-field">
+        <label class="pm-label" data-required="true" for="f1">Phone number</label>
+        <input class="pm-input" id="f1" placeholder="10-digit mobile">
+        <p class="pm-field__message">We'll send an OTP to verify.</p>
+      </div>
+      <div class="pm-field">
+        <label class="pm-label" for="f2">GSTIN</label>
+        <input class="pm-input" id="f2" aria-invalid="true" value="22AAAAA0000A1Z">
+        <p class="pm-field__message" data-state="error">Invalid format — optional until tax setup is configured.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec__head"><h2 class="pm-h2">Loading &amp; empty</h2>
+      <p class="note">Pulse-opacity skeletons. Empty search is honest with a recovery grid — never a fuzzy-junk fallback.</p></div>
+    <div class="stack">
+      <div class="pm-grid" style="max-width:560px">
+        <div class="pm-card"><div class="pm-skeleton" style="padding-top:125%"></div>
+          <div class="pm-skeleton pm-skeleton--text" style="width:60%"></div>
+          <div class="pm-skeleton pm-skeleton--text" style="width:85%"></div></div>
+        <div class="pm-card"><div class="pm-skeleton" style="padding-top:125%"></div>
+          <div class="pm-skeleton pm-skeleton--text" style="width:60%"></div>
+          <div class="pm-skeleton pm-skeleton--text" style="width:85%"></div></div>
+      </div>
+      <div class="panel pm-empty">
+        <h3 class="pm-h3">No results for "phulkari bagh"</h3>
+        <p class="pm-body pm-ink-muted">Check the spelling, or browse these instead.</p>
+        <div class="pm-empty__grid">
+          <a class="pm-empty__tile" href="#">Phulkari</a><a class="pm-empty__tile" href="#">Juttis</a>
+          <a class="pm-empty__tile" href="#">Jewellery</a><a class="pm-empty__tile" href="#">Wedding</a>
+          <a class="pm-empty__tile" href="#">Gifting</a><a class="pm-empty__tile" href="#">Home</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="sec" style="border:0">
+    <p class="pm-small pm-ink-muted">PunjabiMarts Design System V1 · tokens are the single source of truth.
+    A new logo, primary colour or typeface must be absorbable through token updates alone.</p>
+  </footer>
+</div>
+
+<script>
+// Swatches
+const ramps = {
+  'sw-petrol':    ['petrol', [50,100,200,300,400,500,600,700,800,900]],
+  'sw-terracotta':   ['terracotta',[50,100,200,300,400,500,600,700,800,900]],
+  'sw-neutral': ['neutral',[0,50,100,200,300,400,500,600,700,800,900]],
+}
+for (const [id, [name, steps]] of Object.entries(ramps)) {
+  document.getElementById(id).innerHTML = steps.map(s => {
+    const v = getComputedStyle(document.documentElement).getPropertyValue(`--${name}-${s}`).trim()
+    return `<div class="sw"><div class="sw__chip" style="background:${v}"></div><div class="sw__label">${s}<br>${v}</div></div>`
+  }).join('')
+}
+
+// Product cards
+const craft = [
+  { seller:'Sardar Pagri House, Amritsar', title:'Hand-embroidered Phulkari dupatta, deep maroon', price:'₹2,450', mrp:'₹3,200', off:'23% off', badge:'Handmade', rating:'4.6', count:'128' },
+  { seller:'Nazaqat Suits, Amritsar', title:'Punjabi jutti with zari work, cream', price:'₹1,299', mrp:'₹1,799', off:'27% off', badge:'Only 2 left', rating:'4.4', count:'86', sized:true },
+  { seller:'PunjabiMarts', title:'Oxidised silver jhumka, temple motif', price:'₹899', mrp:'₹1,200', off:'25% off', badge:'Bestseller', rating:'4.8', count:'214' },
+]
+const fmcg = [
+  { title:'Pure desi cow ghee', pack:'500 ml', price:'₹649', mrp:'₹750', off:'13% off' },
+  { title:'Cold-pressed mustard oil', pack:'1 L', price:'₹320', mrp:'₹380', off:'15% off' },
+  { title:'Homemade mango pickle', pack:'400 g', price:'₹249', mrp:'₹299', off:'16% off' },
+  { title:'Makhana, roasted', pack:'200 g', price:'₹199', mrp:'₹240', off:'17% off' },
+  { title:'Amritsari papad', pack:'250 g', price:'₹149', mrp:'₹180', off:'17% off' },
+]
+const addMarkup = (rv) => rv
+  ? `<button class="pm-add__btn" data-add-btn>Select Size</button>`
+  : `<button class="pm-add__btn" data-add-btn>ADD</button>
+     <div class="pm-add__stepper" data-add-stepper hidden>
+       <button class="pm-add__step" data-step="-1" aria-label="Decrease">−</button>
+       <span class="pm-add__count" data-count>1</span>
+       <button class="pm-add__step" data-step="1" aria-label="Increase">+</button>
+     </div>`
+
+document.getElementById('grid-craft').innerHTML = craft.map(p => `
+  <article class="pm-card">
+    <div class="pm-card__media">
+      <div class="ph">product image 4:5</div>
+      <span class="pm-card__badge pm-badge">${p.badge}</span>
+      <button class="pm-card__wish" aria-pressed="false" aria-label="Save">♡</button>
+    </div>
+    <div class="pm-card__body">
+      <span class="pm-card__seller">${p.seller}</span>
+      <span class="pm-card__title">${p.title}</span>
+      <div class="pm-price"><span class="pm-price__current">${p.price}</span>
+        <span class="pm-price__mrp">${p.mrp}</span><span class="pm-price__off">${p.off}</span></div>
+      <div class="pm-rating"><span class="pm-rating__star">★</span> ${p.rating} <span class="pm-ink-muted">(${p.count})</span></div>
+    </div>
+    <div class="pm-card__actions">
+      <div class="pm-add" data-add data-requires-variant="${!!p.sized}">${addMarkup(!!p.sized)}</div>
+    </div>
+  </article>`).join('')
+
+document.getElementById('grid-fmcg').innerHTML = fmcg.map(p => `
+  <article class="pm-card pm-card--fmcg">
+    <div class="pm-card__media">
+      <div class="ph">1:1</div>
+      <div class="pm-card__actions">
+        <div class="pm-add" data-add data-requires-variant="false">${addMarkup(false)}</div>
+      </div>
+    </div>
+    <div class="pm-card__body">
+      <span class="pm-card__title">${p.title}</span>
+      <span class="pm-card__pack">${p.pack}</span>
+      <div class="pm-price"><span class="pm-price__current">${p.price}</span>
+        <span class="pm-price__mrp">${p.mrp}</span><span class="pm-price__off">${p.off}</span></div>
+    </div>
+  </article>`).join('')
+
+// AddControl behaviour — optimistic, morphs ADD↔stepper, gates on variant flag
+document.addEventListener('click', (e) => {
+  const root = e.target.closest('[data-add]'); if (!root) return
+  const requiresVariant = root.dataset.requiresVariant === 'true'
+
+  if (e.target.closest('[data-add-btn]')) {
+    if (requiresVariant) {
+      const msg = root.parentElement.querySelector('[data-variant-msg]')
+      if (msg) msg.hidden = false
+      return // never silently adds
+    }
+    root.querySelector('[data-add-btn]').hidden = true
+    root.querySelector('[data-add-stepper]').hidden = false
+    return
+  }
+  const step = e.target.closest('[data-step]'); if (!step) return
+  const countEl = root.querySelector('[data-count]')
+  const next = Number(countEl.textContent) + Number(step.dataset.step)
+  if (next < 1) {
+    root.querySelector('[data-add-stepper]').hidden = true
+    root.querySelector('[data-add-btn]').hidden = false
+    countEl.textContent = '1'
+  } else { countEl.textContent = String(next) }
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+/**
+ * PunjabiMarts DS V1 — components.
+ * TIER 3 · component tokens are declared locally on each component and resolve
+ * to semantic vars. No raw hex/px values below.
+ */
+
+/* ═══ BUTTON ═══ 4 variants × 6 states */
+.pm-btn {
+  --btn-height: var(--control-standard);
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+  min-height: var(--btn-height);
+  padding-inline: var(--space-5);
+  border-radius: var(--radius-control);
+  border: 1px solid transparent;
+  font-size: var(--text-button); line-height: var(--leading-button);
+  font-weight: var(--weight-subheading); letter-spacing: var(--tracking-ui);
+  cursor: pointer; text-decoration: none;
+  transition: background-color var(--motion-interaction), border-color var(--motion-interaction), color var(--motion-interaction);
+}
+.pm-btn--compact { --btn-height: var(--control-compact); padding-inline: var(--space-3); }
+.pm-btn--prominent { --btn-height: var(--control-prominent); padding-inline: var(--space-6); }
+.pm-btn--block { width: 100%; }
+
+.pm-btn--primary { background: var(--action-primary-background); color: var(--action-primary-ink); }
+.pm-btn--primary:hover:not(:disabled) { background: var(--action-primary-background-hover); }
+.pm-btn--primary:active:not(:disabled) { background: var(--action-primary-background-active); }
+.pm-btn--primary { position: relative; overflow: hidden; isolation: isolate; }
+.pm-btn--primary::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: var(--action-primary-sheen);
+  transform: translateX(-110%); opacity: 0;
+}
+.pm-btn--primary:hover:not(:disabled)::before,
+.pm-btn--primary:focus-visible::before {
+  opacity: 1; transform: translateX(110%);
+  transition: transform var(--motion-shimmer), opacity var(--motion-interaction);
+}
+
+.pm-btn--secondary { background: transparent; color: var(--action-secondary-ink); border-color: var(--action-secondary-border); }
+.pm-btn--secondary:hover:not(:disabled) { border-color: var(--border-strong); background: var(--surface-subtle); }
+
+.pm-btn--tertiary { background: transparent; color: var(--ink-brand); padding-inline: var(--space-2); }
+.pm-btn--tertiary:hover:not(:disabled) { background: var(--surface-brand-subtle); }
+
+/* Commerce quick-add — the only place the terracotta accent is a fill. */
+.pm-btn--quickadd { background: var(--accent-fill); color: var(--ink-inverse); }
+.pm-btn--quickadd:hover:not(:disabled) { background: var(--accent-fill-hover); }
+
+.pm-btn:disabled { background: var(--action-disabled); color: var(--action-disabled-ink); border-color: transparent; cursor: not-allowed; }
+.pm-btn[data-loading='true'] { pointer-events: none; opacity: 0.75; }
+.pm-btn[data-loading='true']::before {
+  content: ''; width: 14px; height: 14px; border-radius: var(--radius-pill);
+  border: 2px solid currentColor; border-top-color: transparent;
+  animation: pm-spin 700ms linear infinite;
+}
+@keyframes pm-spin { to { transform: rotate(360deg); } }
+
+/* ═══ INPUT ═══ helper/error slot is always reserved → no CLS on validation */
+.pm-field { display: flex; flex-direction: column; gap: var(--space-2); }
+.pm-label { font-size: var(--text-small); font-weight: var(--weight-medium); color: var(--ink-secondary); }
+.pm-label[data-required='true']::after { content: ' *'; color: var(--error-ink); }
+
+.pm-input {
+  min-height: var(--control-standard);
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface-page);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-control);
+  color: var(--ink-primary);
+  transition: border-color var(--motion-interaction);
+}
+.pm-input::placeholder { color: var(--ink-disabled); }
+.pm-input:hover:not(:disabled) { border-color: var(--border-strong); }
+.pm-input:disabled { background: var(--surface-sunken); color: var(--ink-disabled); cursor: not-allowed; }
+.pm-input[aria-invalid='true'] { border-color: var(--error-border); }
+
+.pm-field__message { min-height: var(--leading-caption); font-size: var(--text-caption); line-height: var(--leading-caption); color: var(--ink-muted); }
+.pm-field__message[data-state='error'] { color: var(--error-ink); }
+
+/* ═══ BADGE ═══ one per card, plain language */
+.pm-badge {
+  display: inline-flex; align-items: center;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-caption); font-weight: var(--weight-semibold);
+  background: var(--surface-brand-muted); color: var(--ink-brand);
+}
+.pm-badge--accent { background: var(--accent-subtle); color: var(--accent-ink); }
+.pm-badge--success { background: var(--success-surface); color: var(--success-ink); }
+.pm-badge--warning { background: var(--warning-surface); color: var(--warning-ink); }
+
+/* ═══ PRICE ═══ three-tier row (Flipkart's hierarchy, our tokens) */
+.pm-price {
+  display: flex; align-items: baseline; gap: var(--space-2); flex-wrap: wrap;
+  /* Tabular figures keep price columns aligned across a product grid. */
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+.pm-price__current { font-size: var(--price-md); line-height: var(--leading-price-md); font-weight: var(--weight-price); color: var(--price-ink); }
+.pm-price--lg .pm-price__current { font-size: var(--price-lg); line-height: var(--leading-price-lg); }
+.pm-price__mrp { font-size: var(--price-strike); font-weight: var(--weight-medium); color: var(--price-strike-ink); text-decoration: line-through; }
+.pm-price__off { font-size: var(--price-discount); font-weight: var(--weight-subheading); color: var(--savings-ink); }
+
+/* ═══ RATING ═══ */
+.pm-rating { display: inline-flex; align-items: center; gap: var(--space-1); font-size: var(--text-small); color: var(--ink-muted); }
+.pm-rating__star { color: var(--rating-fill); }
+
+/* ═══ ADD CONTROL ═══ THE KEYSTONE
+   One component, one flag. requiresVariant=false → width morph ADD↔stepper.
+   requiresVariant=true → routes to variant sheet, never silently adds.
+   Hit targets are 44px (Zepto ships 24×28 and fails a11y). */
+.pm-add { position: relative; display: inline-flex; }
+
+.pm-add__btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: var(--touch-min); min-height: var(--touch-min);
+  padding-inline: var(--space-4);
+  background: var(--surface-page);
+  border: 1px solid var(--accent-fill);
+  border-radius: var(--radius-control);
+  color: var(--accent-ink);
+  font-size: var(--text-body); font-weight: var(--weight-semibold);
+  cursor: pointer;
+  transition: width var(--motion-transition), background-color var(--motion-interaction);
+}
+.pm-add__btn:hover { background: var(--accent-subtle); }
+.pm-add__btn--primary {
+  background: var(--action-primary-background); border-color: transparent;
+  color: var(--action-primary-ink);
+}
+.pm-add__btn--primary:hover { background: var(--action-primary-background-hover); }
+.pm-add__btn--primary:active { background: var(--action-primary-background-active); }
+
+.pm-add__stepper {
+  display: inline-flex; align-items: center;
+  min-height: var(--touch-min);
+  background: var(--accent-fill);
+  border-radius: var(--radius-control);
+  color: var(--ink-inverse);
+  transition: width var(--motion-transition);
+}
+.pm-add__step {
+  min-width: var(--touch-min); min-height: var(--touch-min);
+  display: inline-flex; align-items: center; justify-content: center;
+  background: transparent; border: 0; color: inherit;
+  font-size: var(--text-body-lg); cursor: pointer;
+}
+.pm-add__step:disabled { opacity: 0.5; cursor: not-allowed; }
+.pm-add__count { min-width: var(--space-6); text-align: center; font-size: var(--text-body); font-weight: var(--weight-subheading); font-variant-numeric: tabular-nums; }
+
+.pm-add[hidden], [hidden] { display: none !important; }
+
+/* ═══ PRODUCT CARD — LIFESTYLE (craft) ═══
+   4:5, borderless, image bleeds to edge. Quick-add sits BELOW the image —
+   an overlay + defaces the hero shot, which is the whole proposition here. */
+.pm-card {
+  display: flex; flex-direction: column; gap: var(--space-3);
+  background: var(--surface-page);
+  border-radius: var(--radius-card);
+}
+.pm-card__media { position: relative; border-radius: var(--radius-image); overflow: hidden; background: var(--surface-sunken); }
+.pm-card__media::before { content: ''; display: block; padding-top: 125%; } /* 4:5 */
+.pm-card__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* Badge must never run under the wishlist button — reserve its lane. */
+.pm-card__badge {
+  position: absolute; top: var(--space-2); left: var(--space-2);
+  max-width: calc(100% - var(--touch-min) - var(--space-5));
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  z-index: 1;
+}
+.pm-card__wish {
+  position: absolute; top: var(--space-2); right: var(--space-2);
+  width: var(--touch-min); height: var(--touch-min);
+  z-index: 2;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface-page); border: 0; border-radius: var(--radius-pill);
+  cursor: pointer; color: var(--ink-muted);
+}
+.pm-card__wish[aria-pressed='true'] { color: var(--error-ink); }
+
+.pm-card__body { display: flex; flex-direction: column; gap: var(--space-1); }
+.pm-card__seller { font-size: var(--text-meta); line-height: var(--leading-meta); font-weight: var(--weight-meta); color: var(--ink-muted); }
+.pm-card__title {
+  font-size: var(--text-product); line-height: var(--leading-product);
+  font-weight: var(--weight-product); color: var(--ink-primary);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.pm-card__actions { margin-top: var(--space-1); }
+
+/* ═══ PRODUCT CARD — FMCG (quick-commerce) ═══
+   1:1, compact, pack size prominent, quick-add MAY overlay the image because
+   a flat packshot is not hero photography. */
+.pm-card--fmcg .pm-card__media::before { padding-top: 100%; }
+.pm-card--fmcg .pm-card__actions {
+  position: absolute; right: var(--space-2); bottom: var(--space-2); margin: 0; z-index: 1;
+}
+.pm-card--fmcg .pm-card__media { overflow: visible; }
+.pm-card__pack { font-size: var(--text-small); color: var(--ink-muted); }
+
+/* ═══ SIZE CHIPS ═══ 52×52, r12, three visually distinct states */
+.pm-sizes { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.pm-size {
+  min-width: 52px; min-height: 52px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface-page);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-control);
+  font-size: var(--text-body); color: var(--ink-primary);
+  cursor: pointer;
+}
+.pm-size[aria-pressed='true'] { border-color: var(--action-primary); border-width: 2px; color: var(--ink-brand); font-weight: var(--weight-semibold); }
+.pm-size:disabled { background: var(--surface-sunken); color: var(--ink-disabled); border-color: var(--border-subtle); cursor: not-allowed; }
+
+/* ═══ SKELETON ═══ pulse-opacity (Myntra's approach), not a shimmer sweep */
+.pm-skeleton { background: var(--surface-sunken); border-radius: var(--radius-image); animation: pm-pulse 1.4s ease-in-out infinite; }
+@keyframes pm-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.pm-skeleton--text { height: var(--leading-body); border-radius: var(--radius-xs); }
+
+/* ═══ EMPTY STATE ═══ honest, with recovery — never a fuzzy-junk fallback */
+.pm-empty { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); padding: var(--space-12) var(--space-4); text-align: center; }
+.pm-empty__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-2); width: 100%; max-width: 420px; margin-top: var(--space-4); }
+@media (min-width: 768px) { .pm-empty__grid { grid-template-columns: repeat(3, 1fr); } }
+.pm-empty__tile { padding: var(--space-4); background: var(--surface-subtle); border-radius: var(--radius-card); font-size: var(--text-small); color: var(--ink-secondary); text-decoration: none; }
+.pm-empty__tile:hover { background: var(--surface-brand-subtle); color: var(--ink-brand); }
+
+/* ═══ PRODUCT GRID ═══ craft-led density (2 mobile / 3 desktop) */
+.pm-grid { display: grid; gap: var(--space-4); grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 1024px) { .pm-grid { grid-template-columns: repeat(3, 1fr); gap: var(--space-6); } }
+/* FMCG densifies earlier than craft — a packshot doesn't need breathing room,
+   and 2-up on a tablet wastes the screen for low-consideration items. */
+.pm-grid--fmcg { grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 640px) { .pm-grid--fmcg { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 768px) { .pm-grid--fmcg { grid-template-columns: repeat(4, 1fr); gap: var(--space-4); } }
+@media (min-width: 1024px) { .pm-grid--fmcg { grid-template-columns: repeat(5, 1fr); gap: var(--space-4); } }
